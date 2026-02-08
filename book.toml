@@ -1,7 +1,7 @@
 [book]
 title = "RESPIRAL GDD"
-authors = []
-language = "en"
+authors = ["Shelkarian"]
+language = "ru"
 
 [preprocessor]
 
