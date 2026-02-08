@@ -20,10 +20,13 @@ jobs:
         run: |
           mkdir bin
           curl -sSL https://github.com/rust-lang/mdBook/releases/download/v0.4.40/mdbook-v0.4.40-x86_64-unknown-linux-gnu.tar.gz | tar -xz -C bin
+          curl -sSL https://github.com/badboy/mdbook-mermaid/releases/download/v0.14.0/mdbook-mermaid-v0.14.0-x86_64-unknown-linux-gnu.tar.gz | tar -xz -C bin
           echo "$(pwd)/bin" >> $GITHUB_PATH
 
       - name: Build with mdBook
-        run: mdbook build
+        run: |
+          mdbook-mermaid install .
+          mdbook build
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
@@ -33,3 +36,4 @@ jobs:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
+
