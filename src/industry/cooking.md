@@ -128,7 +128,7 @@ graph TD
         FireStation --> ToolFire{Инструмент?}
         
         ToolFire -- "В руках" --> Stick(На палке):::tool
-        Stick --> ResRoast([Обжаренное<br/>Мало сытости]):::result
+        Stick --> ResRoast([Обжаренное]):::result
         
         ToolFire -- "Конструкция" --> Spit(Вертел):::tool
         Spit --> ResGrill([Гриль / Шашлык]):::result
@@ -141,19 +141,19 @@ graph TD
         StoveStation --> ToolStove{Посуда?}
         
         ToolStove -- "Сковорода" --> Pan(Жарка в масле):::tool
-        Pan --> ResFry([Стейк / Рагу<br/>Макс. калорий]):::result
+        Pan --> ResFry([Жареные продукты]):::result
         
         ToolStove -- "Кастрюля" --> Pot(Варка):::tool
         Pot --> HeatingStove[Нагрев]
         
         %% ЛОГИКА ВАРКИ (ОБЩАЯ)
         HeatingFire & HeatingStove --> BoilCheck{Т > 100°C?}:::check
-        BoilCheck -- "Да" --> ResBoil([Суп / Похлебка<br/>Восст. воды]):::result
+        BoilCheck -- "Да" --> ResBoil([Вареные продукты]):::result
 
         %% ВЕТКА ПЕЧИ
         ChooseStation -- "Пекарня" --> OvenStation(Каменная Печь):::station
         OvenStation --> BakeProcess[Запекание]
-        BakeProcess --> ResBake([Пирог / Хлеб<br/>Бафф комфорта]):::result
+        BakeProcess --> ResBake([Выпечка]):::result
     end
 
     subgraph STAGE4["ЭТАП 4: КОНСЕРВАЦИЯ"]
