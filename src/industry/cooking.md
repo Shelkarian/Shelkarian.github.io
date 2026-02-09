@@ -168,7 +168,7 @@ graph TD
         CheckRain -- "Нет" --> ResDry([Вяленое / Джерки]):::result
         
         Preserve -- "Коптильня + Дрова" --> Smoker(Копчение):::station
-        Smoker --> ResSmoke([Копчености<br/>Дорого]):::result
+        Smoker --> ResSmoke([Копчености]):::result
     end
 ```
 
