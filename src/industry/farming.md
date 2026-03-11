@@ -64,27 +64,27 @@ graph TD
         Dig --> Soil(Вспаханная грядка):::station
     end
 
-    subgraph STAGE2["ЭТАП 2: ПОСАДКА И УХОД"]
+    subgraph STAGE2["ЭТАП 2: ПОСАДКА"]
         Soil --> Action{Действие}
         
         Action -- "Удобрение" --> AddStats[Восполнение NPK]
         AddStats --> Soil
         
         Action -- "Посадка" --> Seed[Внесение семян]
-        Seed --> LightCheck{Проверка Света}
+        Seed --> LightCheck{Проверка света}
         
         LightCheck -- "Провал" --> DeathLight(Семя гибнет):::danger
-        LightCheck -- "Успех" --> GrowPhase[Цикл Роста]
+        LightCheck -- "Успех" --> GrowPhase[Цикл роста]
         
-        GrowPhase --> Consume{Есть Вода и NPK?}
+        GrowPhase --> Consume{Есть вода и NPK?}
         Consume -- "Нет" --> LoseHP[Потеря здоровья]
         Consume -- "Да" --> GainGrow[Прогресс стадии]
         
-        GrowPhase -.-> BlightEvent{Шанс Скверны}
+        GrowPhase -.-> BlightEvent{Шанс скверны}
         BlightEvent -- "Да" --> Blight[Заражение]:::danger
         Blight --> Cure{Обработка?}
         Cure -- "Нет" --> DeathBlight(Растение гибнет):::danger
-        Cure -- "Да (Нож/Алхимия)" --> GainGrow
+        Cure -- "Да (Нож/алхимия)" --> GainGrow
     end
 
     subgraph STAGE3["ЭТАП 3: СБОР УРОЖАЯ"]
