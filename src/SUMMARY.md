@@ -69,3 +69,6 @@
 - [Таблицы лута](./content/loot_tables.md)
 - [Стандарты баланса](./content/balance_rules.md)
 - [Кузнечное дело](./content/smithing_data.md)
+
+# Архив
+- [Языки - старый черновик](./archive/languages_legacy.md)
