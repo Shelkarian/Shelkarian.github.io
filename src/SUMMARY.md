@@ -80,7 +80,7 @@
 - [Медицина](./industry/medicine.md)
 - [Износ предметов](./wear/overview.md)
 
-# VIII. Материалы и станки
+# VIII. Материалы
 - [Материалы: шаблон](./material/design-plan.md)
 - [Дерево](./material/wood.md)
 - [Камень](./material/stone.md)
@@ -96,6 +96,8 @@
 - [Ткань](./material/cloth.md)
 - [Стекло](./material/glass.md)
 - [Самоцветы](./material/gems.md)
+
+# IX. Станки и рабочие места
 - [Станки: шаблон](./lathe/design-plan.md)
 - [Пилорама](./lathe/sawmill.md)
 - [Каменоломня](./lathe/quarry.md)
@@ -111,14 +113,14 @@
 - [Костровая жаровня](./lathe/hotplate.md)
 - [Связующий магический шар](./lathe/connecting-magic-ball.md)
 
-# IX. Бой
+# X. Бой
 - [Ближний бой](./combat/melee.md)
 - [Дальний бой](./combat/ranged.md)
 - [Формулы урона](./combat/damage_math.md)
 - [Статус-эффекты](./combat/status_effects.md)
 - [Логика NPC в бою](./combat/ai_logic.md)
 
-# X. Магия и вера
+# XI. Магия и вера
 - [Система магии](./magic/magic_system.md)
 - [Школы магии](./magic/schools.md)
 - [Создание заклинаний](./magic/casting.md)
@@ -127,33 +129,33 @@
 - [Благословения](./magic/faith.md)
 - [Физические ограничения магии](./magic/physics_constraints.md)
 
-# XI. Тело и выживание
+# XII. Тело и выживание
 - [Метаболизм](./survival/metabolism.md)
 - [Медицина выживания](./survival/medicine.md)
 - [Смерть и возрождение](./survival/death.md)
 
-# XII. Карта и мир
+# XIII. Карта и мир
 - [Правила маппинга](./world/mapping_rules.md)
 - [Распределение ресурсов](./world/resource_distribution.md)
 - [Зонирование](./world/zoning.md)
 
-# XIII. Симуляция
+# XIV. Симуляция
 - [Атмосфера и газы](./environment/atmos.md)
 - [Жидкости](./environment/fluids.md)
 - [Освещение и аудио](./environment/audiovisual.md)
 
-# XIV. Интерфейс
+# XV. Интерфейс
 - [Схема управления](./ui/controls.md)
 - [HUD и оверлеи](./ui/hud.md)
 
-# XV. База контента и баланс
+# XVI. База контента и баланс
 - [Реестр предметов](./content/items_db.md)
 - [Книга рецептов](./content/recipes_db.md)
 - [Таблицы лута](./content/loot_tables.md)
 - [Стандарты баланса](./content/balance_rules.md)
 - [Кузнечное дело: данные](./content/smithing_data.md)
 
-# XVI. Ведение документа
+# XVII. Ведение документа
 - [Правила публикации](./contributing.md)
 
 # Архив
