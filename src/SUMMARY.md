@@ -2,12 +2,12 @@
 
 [Введение](./intro.md)
 
-# I. Концепция
+# I. Концепция проекта
 - [Столпы проекта](./thematic/pillars.md)
 - [Игровой цикл](./thematic/loop.md)
 - [Сеттинг мира](./thematic/setting.md)
 
-# II. Мета-система
+# II. Раунд и мета-слой
 - [Структура раунда](./modes/round_structure.md)
 - [Метапрогрессия](./modes/metaprogress.md)
 - [Концовки](./modes/endings.md)
@@ -16,66 +16,13 @@
 - [Схема управления](./ui/controls.md)
 - [HUD и оверлеи](./ui/hud.md)
 
-# IV. Сущность
+# IV. Персонаж, расы и роли
 - [Атрибуты](./character/attributes.md)
 - [Расы](./character/species.md)
-- [Навыки](./character/skills.md)
+- [Навыки персонажа](./character/skills.md)
 - [Инвентарь и слоты](./character/equipment_slots.md)
 - [Психология](./character/sanity.md)
-
-# V. Ремесло
-- [Шахтерское дело](./industry/mining.md)
-- [Кузнечное дело](./industry/smithing.md)
-- [Алхимия](./industry/alchemy.md)
-- [Готовка](./industry/cooking.md)
-- [Фермерство](./industry/farming.md)
-- [Строительство](./industry/construction.md)
-- [Медицина](./industry/medicine.md)
-
-# VI. Боевая система
-- [Ближний бой](./combat/melee.md)
-- [Дальний бой](./combat/ranged.md)
-- [Магия](./magic/magic_fight.md)
-- [Благословения](./magic/faith.md)
-
-# VII. Выживание
-- [Метаболизм](./survival/metabolism.md)
-- [Смерть и возрождение](./survival/death.md)
-
-# VIII. Магия
-- [Система магии](./magic/magic_system.md)
-- [Школы магии](./magic/schools.md)
-- [Ритуалы](./magic/rituals.md)
-
-# IX. Мир и картостроение
-- [Правила маппинга](./world/mapping_rules.md)
-- [Распределение ресурсов](./world/resource_distribution.md)
-- [Зонирование](./world/zoning.md)
-
-# X. Симуляция
-- [Атмосфера и газы](./environment/atmos.md)
-- [Освещение и аудио](./environment/audiovisual.md)
-- [Жидкости](./environment/fluids.md)
-
-# XI. Социум
-- [Экономика](./social/economy.md)
-- [Торговля](./social/trading.md)
-- [Законы](./social/law.md)
-- [Коммуникация](./social/communication.md)
-- [Языки](./social/languages.md)
-
-# XII. База данных
-- [Реестр предметов](./content/items_db.md)
-- [Книга рецептов](./content/recipes_db.md)
-- [Таблицы лута](./content/loot_tables.md)
-- [Стандарты баланса](./content/balance_rules.md)
-- [Кузнечное дело](./content/smithing_data.md)
-
-# XIII. Импорт Respiral Docs
-- [Введение импорта](./imported_respiral_docs.md)
-
-# XIV. Роли и профессии
-- [Обзор: текущее состояние](./roles/jobs/overview.md)
+- [Роли: общее состояние](./roles/jobs/overview.md)
 - [Шаблон департамента](./roles/jobs/departments/design-plan.md)
 - [Шаблон профессии](./roles/jobs/professions/design-plan.md)
 - [Городские](./roles/jobs/departments/craftsman.md)
@@ -97,18 +44,18 @@
   - [Староста](./roles/jobs/professions/elder.md)
   - [Фермер](./roles/jobs/professions/farmer.md)
   - [Крестьянин](./roles/jobs/professions/peasant.md)
-- [Другие](./roles/jobs/departments/commoner.md)
+- [Прочие жители](./roles/jobs/departments/commoner.md)
   - [Переселенец](./roles/jobs/professions/pilligrim.md)
 
-# XV. Навыки: детализация
+# V. Навыки и обучение
 - [Шаблон навыка](./skills/design-plan.md)
+- [Грамотность](./skills/literacy.md)
 - [Обработка дерева](./skills/wood-processing.md)
 - [Обработка камня](./skills/stone-processing.md)
 - [Основы кузнечного дела](./skills/blacksmithing.md)
 - [Портное дело](./skills/tailor.md)
 - [Алхимия](./skills/alchemy.md)
 - [Ювелирное дело](./skills/jewelry.md)
-- [Грамотность](./skills/literacy.md)
 - [Одноручный клинок](./skills/one-sword.md)
 - [Кинжал](./skills/dagger.md)
 - [Булава / дубина](./skills/mace.md)
@@ -116,7 +63,18 @@
 - [Плеть](./skills/whip.md)
 - [Древковое оружие](./skills/ancient-weapons.md)
 
-# XVI. Материалы
+# VI. Ремесло и производство
+- [Шахтерское дело](./industry/mining.md)
+- [Кузнечное дело](./industry/smithing.md)
+- [Алхимия](./industry/alchemy.md)
+- [Готовка](./industry/cooking.md)
+- [Фермерство](./industry/farming.md)
+- [Строительство](./industry/construction.md)
+- [Постройка: обзор](./construction/overview.md)
+- [Медицина](./industry/medicine.md)
+- [Износ предметов](./wear/overview.md)
+
+# VII. Материалы
 - [Шаблон материала](./material/design-plan.md)
 - [Дерево](./material/wood.md)
 - [Камень](./material/stone.md)
@@ -133,7 +91,7 @@
 - [Стекло](./material/glass.md)
 - [Самоцветы](./material/gems.md)
 
-# XVII. Станки
+# VIII. Станки и рабочие места
 - [Шаблон станка](./lathe/design-plan.md)
 - [Пилорама](./lathe/sawmill.md)
 - [Каменоломня](./lathe/quarry.md)
@@ -149,11 +107,55 @@
 - [Костровая жаровня](./lathe/hotplate.md)
 - [Связующий магический шар](./lathe/connecting-magic-ball.md)
 
-# XVIII. Дополнительные системы из Respiral Docs
-- [Постройка: обзор](./construction/overview.md)
+# IX. Боевая система
+- [Ближний бой](./combat/melee.md)
+- [Дальний бой](./combat/ranged.md)
+- [Магия в бою](./magic/magic_fight.md)
+- [Благословения](./magic/faith.md)
+- [Формулы урона](./combat/damage_math.md)
+- [Статус-эффекты](./combat/status_effects.md)
+- [Логика NPC в бою](./combat/ai_logic.md)
+
+# X. Выживание и медицина
+- [Метаболизм](./survival/metabolism.md)
+- [Медицина выживания](./survival/medicine.md)
+- [Смерть и возрождение](./survival/death.md)
+
+# XI. Магия
+- [Система магии](./magic/magic_system.md)
+- [Школы магии](./magic/schools.md)
+- [Создание заклинаний](./magic/casting.md)
+- [Ритуалы](./magic/rituals.md)
+- [Физические ограничения магии](./magic/physics_constraints.md)
+
+# XII. Мир и карта
+- [Правила маппинга](./world/mapping_rules.md)
+- [Распределение ресурсов](./world/resource_distribution.md)
+- [Зонирование](./world/zoning.md)
+
+# XIII. Симуляция окружения
+- [Атмосфера и газы](./environment/atmos.md)
+- [Освещение и аудио](./environment/audiovisual.md)
+- [Жидкости](./environment/fluids.md)
+
+# XIV. Социум, экономика и закон
+- [Экономика](./social/economy.md)
 - [Ценообразование](./economy/pricing.md)
-- [Износ: обзор](./wear/overview.md)
+- [Торговля](./social/trading.md)
+- [Законы](./social/law.md)
+- [Коммуникация](./social/communication.md)
+- [Языки](./social/languages.md)
+
+# XV. База данных и баланс
+- [Реестр предметов](./content/items_db.md)
+- [Книга рецептов](./content/recipes_db.md)
+- [Таблицы лута](./content/loot_tables.md)
+- [Стандарты баланса](./content/balance_rules.md)
+- [Кузнечное дело: данные](./content/smithing_data.md)
+
+# XVI. Ведение документа
 - [Правила публикации](./contributing.md)
 
 # Архив
 - [Языки - старый черновик](./archive/languages_legacy.md)
+- [Respiral Docs - исходное введение](./archive/respiral_docs_intro.md)
