@@ -2,22 +2,24 @@
 
 [Введение](./intro.md)
 
-# I. Обзор и направление
+# I. Основы дизайна (Core Design)
 - [Столпы проекта](./thematic/pillars.md)
 - [Сеттинг мира](./thematic/setting.md)
-
-# II. Раунд и игровой цикл
 - [Игровой цикл](./thematic/loop.md)
-- [Структура раунда](./modes/round_structure.md)
-- [Метапрогрессия](./modes/metaprogress.md)
-- [Концовки](./modes/endings.md)
 
-# III. Персонаж, расы и роли
-- [Атрибуты](./character/attributes.md)
+# II. Ход раунда (Roundflow)
+- [Структура раунда](./modes/round_structure.md)
+- [Концовки](./modes/endings.md)
+- [Метапрогрессия](./modes/metaprogress.md)
+
+# III. Персонажи и расы
 - [Расы](./character/species.md)
+- [Атрибуты](./character/attributes.md)
 - [Навыки персонажа](./character/skills.md)
 - [Инвентарь и слоты](./character/equipment_slots.md)
 - [Психология](./character/sanity.md)
+
+# IV. Роли и департаменты
 - [Карта ролей](./roles/jobs/overview.md)
 - [Шаблон департамента](./roles/jobs/departments/design-plan.md)
 - [Шаблон профессии](./roles/jobs/professions/design-plan.md)
@@ -43,7 +45,7 @@
 - [Прочие жители](./roles/jobs/departments/commoner.md)
   - [Переселенец](./roles/jobs/professions/pilligrim.md)
 
-# IV. Навыки и обучение
+# V. Навыки
 - [Шаблон навыка](./skills/design-plan.md)
 - [Грамотность](./skills/literacy.md)
 - [Обработка дерева](./skills/wood-processing.md)
@@ -59,15 +61,15 @@
 - [Плеть](./skills/whip.md)
 - [Древковое оружие](./skills/ancient-weapons.md)
 
-# V. Социальные системы
+# VI. Взаимодействие и общество
+- [Коммуникация](./social/communication.md)
+- [Языки](./social/languages.md)
+- [Законы](./social/law.md)
 - [Экономика](./social/economy.md)
 - [Ценообразование](./economy/pricing.md)
 - [Торговля](./social/trading.md)
-- [Законы](./social/law.md)
-- [Коммуникация](./social/communication.md)
-- [Языки](./social/languages.md)
 
-# VI. Ремесло, материалы и станки
+# VII. Рабочие области
 - [Шахтерское дело](./industry/mining.md)
 - [Кузнечное дело](./industry/smithing.md)
 - [Алхимия](./industry/alchemy.md)
@@ -77,6 +79,8 @@
 - [Постройка: обзор](./construction/overview.md)
 - [Медицина](./industry/medicine.md)
 - [Износ предметов](./wear/overview.md)
+
+# VIII. Материалы и станки
 - [Материалы: шаблон](./material/design-plan.md)
 - [Дерево](./material/wood.md)
 - [Камень](./material/stone.md)
@@ -107,12 +111,14 @@
 - [Костровая жаровня](./lathe/hotplate.md)
 - [Связующий магический шар](./lathe/connecting-magic-ball.md)
 
-# VII. Бой, магия и выживание
+# IX. Бой
 - [Ближний бой](./combat/melee.md)
 - [Дальний бой](./combat/ranged.md)
 - [Формулы урона](./combat/damage_math.md)
 - [Статус-эффекты](./combat/status_effects.md)
 - [Логика NPC в бою](./combat/ai_logic.md)
+
+# X. Магия и вера
 - [Система магии](./magic/magic_system.md)
 - [Школы магии](./magic/schools.md)
 - [Создание заклинаний](./magic/casting.md)
@@ -120,30 +126,34 @@
 - [Ритуалы](./magic/rituals.md)
 - [Благословения](./magic/faith.md)
 - [Физические ограничения магии](./magic/physics_constraints.md)
+
+# XI. Тело и выживание
 - [Метаболизм](./survival/metabolism.md)
 - [Медицина выживания](./survival/medicine.md)
 - [Смерть и возрождение](./survival/death.md)
 
-# VIII. Мир, карта и окружение
+# XII. Карта и мир
 - [Правила маппинга](./world/mapping_rules.md)
 - [Распределение ресурсов](./world/resource_distribution.md)
 - [Зонирование](./world/zoning.md)
-- [Атмосфера и газы](./environment/atmos.md)
-- [Освещение и аудио](./environment/audiovisual.md)
-- [Жидкости](./environment/fluids.md)
 
-# IX. Интерфейс и обратная связь
+# XIII. Симуляция
+- [Атмосфера и газы](./environment/atmos.md)
+- [Жидкости](./environment/fluids.md)
+- [Освещение и аудио](./environment/audiovisual.md)
+
+# XIV. Интерфейс
 - [Схема управления](./ui/controls.md)
 - [HUD и оверлеи](./ui/hud.md)
 
-# X. Контент, данные и баланс
+# XV. База контента и баланс
 - [Реестр предметов](./content/items_db.md)
 - [Книга рецептов](./content/recipes_db.md)
 - [Таблицы лута](./content/loot_tables.md)
 - [Стандарты баланса](./content/balance_rules.md)
 - [Кузнечное дело: данные](./content/smithing_data.md)
 
-# XI. Ведение документа
+# XVI. Ведение документа
 - [Правила публикации](./contributing.md)
 
 # Архив
