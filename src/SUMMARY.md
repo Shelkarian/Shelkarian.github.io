@@ -2,27 +2,23 @@
 
 [Введение](./intro.md)
 
-# I. Концепция проекта
+# I. Обзор и направление
 - [Столпы проекта](./thematic/pillars.md)
-- [Игровой цикл](./thematic/loop.md)
 - [Сеттинг мира](./thematic/setting.md)
 
-# II. Раунд и мета-слой
+# II. Раунд и игровой цикл
+- [Игровой цикл](./thematic/loop.md)
 - [Структура раунда](./modes/round_structure.md)
 - [Метапрогрессия](./modes/metaprogress.md)
 - [Концовки](./modes/endings.md)
 
-# III. Интерфейс
-- [Схема управления](./ui/controls.md)
-- [HUD и оверлеи](./ui/hud.md)
-
-# IV. Персонаж, расы и роли
+# III. Персонаж, расы и роли
 - [Атрибуты](./character/attributes.md)
 - [Расы](./character/species.md)
 - [Навыки персонажа](./character/skills.md)
 - [Инвентарь и слоты](./character/equipment_slots.md)
 - [Психология](./character/sanity.md)
-- [Роли: общее состояние](./roles/jobs/overview.md)
+- [Карта ролей](./roles/jobs/overview.md)
 - [Шаблон департамента](./roles/jobs/departments/design-plan.md)
 - [Шаблон профессии](./roles/jobs/professions/design-plan.md)
 - [Городские](./roles/jobs/departments/craftsman.md)
@@ -47,7 +43,7 @@
 - [Прочие жители](./roles/jobs/departments/commoner.md)
   - [Переселенец](./roles/jobs/professions/pilligrim.md)
 
-# V. Навыки и обучение
+# IV. Навыки и обучение
 - [Шаблон навыка](./skills/design-plan.md)
 - [Грамотность](./skills/literacy.md)
 - [Обработка дерева](./skills/wood-processing.md)
@@ -63,7 +59,15 @@
 - [Плеть](./skills/whip.md)
 - [Древковое оружие](./skills/ancient-weapons.md)
 
-# VI. Ремесло и производство
+# V. Социальные системы
+- [Экономика](./social/economy.md)
+- [Ценообразование](./economy/pricing.md)
+- [Торговля](./social/trading.md)
+- [Законы](./social/law.md)
+- [Коммуникация](./social/communication.md)
+- [Языки](./social/languages.md)
+
+# VI. Ремесло, материалы и станки
 - [Шахтерское дело](./industry/mining.md)
 - [Кузнечное дело](./industry/smithing.md)
 - [Алхимия](./industry/alchemy.md)
@@ -73,9 +77,7 @@
 - [Постройка: обзор](./construction/overview.md)
 - [Медицина](./industry/medicine.md)
 - [Износ предметов](./wear/overview.md)
-
-# VII. Материалы
-- [Шаблон материала](./material/design-plan.md)
+- [Материалы: шаблон](./material/design-plan.md)
 - [Дерево](./material/wood.md)
 - [Камень](./material/stone.md)
 - [Уголь](./material/coal.md)
@@ -90,9 +92,7 @@
 - [Ткань](./material/cloth.md)
 - [Стекло](./material/glass.md)
 - [Самоцветы](./material/gems.md)
-
-# VIII. Станки и рабочие места
-- [Шаблон станка](./lathe/design-plan.md)
+- [Станки: шаблон](./lathe/design-plan.md)
 - [Пилорама](./lathe/sawmill.md)
 - [Каменоломня](./lathe/quarry.md)
 - [Стол плотника](./lathe/carpenter-table.md)
@@ -107,53 +107,43 @@
 - [Костровая жаровня](./lathe/hotplate.md)
 - [Связующий магический шар](./lathe/connecting-magic-ball.md)
 
-# IX. Боевая система
+# VII. Бой, магия и выживание
 - [Ближний бой](./combat/melee.md)
 - [Дальний бой](./combat/ranged.md)
-- [Магия в бою](./magic/magic_fight.md)
-- [Благословения](./magic/faith.md)
 - [Формулы урона](./combat/damage_math.md)
 - [Статус-эффекты](./combat/status_effects.md)
 - [Логика NPC в бою](./combat/ai_logic.md)
-
-# X. Выживание и медицина
+- [Система магии](./magic/magic_system.md)
+- [Школы магии](./magic/schools.md)
+- [Создание заклинаний](./magic/casting.md)
+- [Магия в бою](./magic/magic_fight.md)
+- [Ритуалы](./magic/rituals.md)
+- [Благословения](./magic/faith.md)
+- [Физические ограничения магии](./magic/physics_constraints.md)
 - [Метаболизм](./survival/metabolism.md)
 - [Медицина выживания](./survival/medicine.md)
 - [Смерть и возрождение](./survival/death.md)
 
-# XI. Магия
-- [Система магии](./magic/magic_system.md)
-- [Школы магии](./magic/schools.md)
-- [Создание заклинаний](./magic/casting.md)
-- [Ритуалы](./magic/rituals.md)
-- [Физические ограничения магии](./magic/physics_constraints.md)
-
-# XII. Мир и карта
+# VIII. Мир, карта и окружение
 - [Правила маппинга](./world/mapping_rules.md)
 - [Распределение ресурсов](./world/resource_distribution.md)
 - [Зонирование](./world/zoning.md)
-
-# XIII. Симуляция окружения
 - [Атмосфера и газы](./environment/atmos.md)
 - [Освещение и аудио](./environment/audiovisual.md)
 - [Жидкости](./environment/fluids.md)
 
-# XIV. Социум, экономика и закон
-- [Экономика](./social/economy.md)
-- [Ценообразование](./economy/pricing.md)
-- [Торговля](./social/trading.md)
-- [Законы](./social/law.md)
-- [Коммуникация](./social/communication.md)
-- [Языки](./social/languages.md)
+# IX. Интерфейс и обратная связь
+- [Схема управления](./ui/controls.md)
+- [HUD и оверлеи](./ui/hud.md)
 
-# XV. База данных и баланс
+# X. Контент, данные и баланс
 - [Реестр предметов](./content/items_db.md)
 - [Книга рецептов](./content/recipes_db.md)
 - [Таблицы лута](./content/loot_tables.md)
 - [Стандарты баланса](./content/balance_rules.md)
 - [Кузнечное дело: данные](./content/smithing_data.md)
 
-# XVI. Ведение документа
+# XI. Ведение документа
 - [Правила публикации](./contributing.md)
 
 # Архив
