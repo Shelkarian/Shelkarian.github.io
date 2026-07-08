@@ -97,7 +97,7 @@
 - [Стекло](./material/glass.md)
 - [Самоцветы](./material/gems.md)
 
-# IX. Станки и рабочие места
+# IX. Станки
 - [Станки: шаблон](./lathe/design-plan.md)
 - [Пилорама](./lathe/sawmill.md)
 - [Каменоломня](./lathe/quarry.md)
