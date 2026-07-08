@@ -80,10 +80,7 @@
 - [Медицина](./industry/medicine.md)
 - [Износ предметов](./wear/overview.md)
 
-# VIII. Рабочие места
-- [Обзор рабочих мест](./world/workplaces.md)
-
-# IX. Материалы
+# VIII. Материалы
 - [Материалы: шаблон](./material/design-plan.md)
 - [Дерево](./material/wood.md)
 - [Камень](./material/stone.md)
@@ -100,7 +97,7 @@
 - [Стекло](./material/glass.md)
 - [Самоцветы](./material/gems.md)
 
-# X. Станки
+# IX. Станки
 - [Станки: шаблон](./lathe/design-plan.md)
 - [Пилорама](./lathe/sawmill.md)
 - [Каменоломня](./lathe/quarry.md)
@@ -115,6 +112,9 @@
 - [Магический измельчитель](./lathe/reagent-grinder.md)
 - [Костровая жаровня](./lathe/hotplate.md)
 - [Связующий магический шар](./lathe/connecting-magic-ball.md)
+
+# X. Рабочие места
+- [Обзор рабочих мест](./world/workplaces.md)
 
 # XI. Бой
 - [Ближний бой](./combat/melee.md)
