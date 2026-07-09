@@ -2,12 +2,12 @@
 
 [Введение](./intro.md)
 
-# I. Основы дизайна (Core Design)
+# I. Основы дизайна
 - [Столпы проекта](./thematic/pillars.md)
 - [Сеттинг мира](./thematic/setting.md)
 - [Игровой цикл](./thematic/loop.md)
 
-# II. Ход раунда (Roundflow)
+# II. Ход раунда
 - [Структура раунда](./modes/round_structure.md)
 - [Концовки](./modes/endings.md)
 - [Метапрогрессия](./modes/metaprogress.md)
