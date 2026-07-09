@@ -43,4 +43,4 @@
 ## Реализация
 
 - Дворянские профессии: [Resources/Prototypes/_Respiral/Roles/Jobs/Nobles/nobles.yml](https://github.com/respiral-tree/ss14-respiral/blob/master/Resources/Prototypes/_Respiral/Roles/Jobs/Nobles/nobles.yml)
-- Названия департаментов: [Resources/Locale/ru-RU/_Respiral/job/department.ftl](https://github.com/respiral-tree/ss14-respiral/blob/master/Resources/Locale/ru-RU/_Respiral/job/department.ftl)
+- Названия департаментов: [Resources/Locale/ru-RU/_respiral/job/department.ftl](https://github.com/respiral-tree/ss14-respiral/blob/master/Resources/Locale/ru-RU/_respiral/job/department.ftl)

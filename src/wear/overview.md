@@ -47,4 +47,4 @@
 - Серверная логика: [Content.Server/_Respiral/Wear/ClothingDamageDistributionSystem.cs](https://github.com/respiral-tree/ss14-respiral/blob/master/Content.Server/_Respiral/Wear/ClothingDamageDistributionSystem.cs)
 - Серверная логика: [Content.Server/_Respiral/Wear/ContainerDamageDistributionSystem.cs](https://github.com/respiral-tree/ss14-respiral/blob/master/Content.Server/_Respiral/Wear/ContainerDamageDistributionSystem.cs)
 - Компонент износа: [Content.Server/_Respiral/Wear/Components/WearComponent.cs](https://github.com/respiral-tree/ss14-respiral/blob/master/Content.Server/_Respiral/Wear/Components/WearComponent.cs)
-- Тексты износа: [Resources/Locale/ru-RU/_Respiral/wear.ftl](https://github.com/respiral-tree/ss14-respiral/blob/master/Resources/Locale/ru-RU/_Respiral/wear.ftl)
+- Тексты износа: [Resources/Locale/ru-RU/_respiral/wear.ftl](https://github.com/respiral-tree/ss14-respiral/blob/master/Resources/Locale/ru-RU/_respiral/wear.ftl)

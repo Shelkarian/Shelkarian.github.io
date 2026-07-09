@@ -128,6 +128,6 @@
 - Медицинские реагенты: [Resources/Prototypes/_Respiral/Reagents/medicine.yml](https://github.com/respiral-tree/ss14-respiral/blob/master/Resources/Prototypes/_Respiral/Reagents/medicine.yml)
 - Реакции реагентов: [Resources/Prototypes/_Respiral/Reagents/reaction.yml](https://github.com/respiral-tree/ss14-respiral/blob/master/Resources/Prototypes/_Respiral/Reagents/reaction.yml)
 - Яды: [Resources/Prototypes/_Respiral/Reagents/toxin.yml](https://github.com/respiral-tree/ss14-respiral/blob/master/Resources/Prototypes/_Respiral/Reagents/toxin.yml)
-- Тексты реагентов: [Resources/Locale/ru-RU/_Respiral/reagents/herb.ftl](https://github.com/respiral-tree/ss14-respiral/blob/master/Resources/Locale/ru-RU/_Respiral/reagents/herb.ftl)
+- Тексты реагентов: [Resources/Locale/ru-RU/_respiral/reagents/herb.ftl](https://github.com/respiral-tree/ss14-respiral/blob/master/Resources/Locale/ru-RU/_respiral/reagents/herb.ftl)
 - Алхимический стол: [Resources/Prototypes/_Respiral/Entities/Structures/Machine/alchem_table.yml](https://github.com/respiral-tree/ss14-respiral/blob/master/Resources/Prototypes/_Respiral/Entities/Structures/Machine/alchem_table.yml)
 - Измельчитель реагентов: [Resources/Prototypes/_Respiral/Entities/Structures/Machine/reagent_grinder.yml](https://github.com/respiral-tree/ss14-respiral/blob/master/Resources/Prototypes/_Respiral/Entities/Structures/Machine/reagent_grinder.yml)

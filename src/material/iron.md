@@ -24,5 +24,5 @@
 - Обработанные материалы: [Resources/Prototypes/_Respiral/Entities/Objects/ProcessedMaterials/materials.yml](https://github.com/respiral-tree/ss14-respiral/blob/master/Resources/Prototypes/_Respiral/Entities/Objects/ProcessedMaterials/materials.yml)
 - Производство обработанных материалов: [Resources/Prototypes/_Respiral/Entities/Objects/ProcessedMaterials/production.yml](https://github.com/respiral-tree/ss14-respiral/blob/master/Resources/Prototypes/_Respiral/Entities/Objects/ProcessedMaterials/production.yml)
 - Стаки обработанных материалов: [Resources/Prototypes/_Respiral/Entities/Objects/ProcessedMaterials/stack.yml](https://github.com/respiral-tree/ss14-respiral/blob/master/Resources/Prototypes/_Respiral/Entities/Objects/ProcessedMaterials/stack.yml)
-- Названия материалов: [Resources/Locale/ru-RU/_Respiral/materials/materials.ftl](https://github.com/respiral-tree/ss14-respiral/blob/master/Resources/Locale/ru-RU/_Respiral/materials/materials.ftl)
-- Названия стаков: [Resources/Locale/ru-RU/_Respiral/stacks.ftl](https://github.com/respiral-tree/ss14-respiral/blob/master/Resources/Locale/ru-RU/_Respiral/stacks.ftl)
+- Названия материалов: [Resources/Locale/ru-RU/_respiral/materials/materials.ftl](https://github.com/respiral-tree/ss14-respiral/blob/master/Resources/Locale/ru-RU/_respiral/materials/materials.ftl)
+- Названия стаков: [Resources/Locale/ru-RU/_respiral/stacks.ftl](https://github.com/respiral-tree/ss14-respiral/blob/master/Resources/Locale/ru-RU/_respiral/stacks.ftl)

@@ -20,7 +20,7 @@
 - Серверная система навыков: [Content.Server/_Respiral/Skill/SkillSystem.cs](https://github.com/respiral-tree/ss14-respiral/blob/master/Content.Server/_Respiral/Skill/SkillSystem.cs)
 - Клиентская система навыков: [Content.Client/_Respiral/Skill/SkillSystem.cs](https://github.com/respiral-tree/ss14-respiral/blob/master/Content.Client/_Respiral/Skill/SkillSystem.cs)
 - Обучение через предметы: [Content.Server/_Respiral/Skill/LearnSkillWhenUsingSystem.cs](https://github.com/respiral-tree/ss14-respiral/blob/master/Content.Server/_Respiral/Skill/LearnSkillWhenUsingSystem.cs)
-- Тексты навыков: [Resources/Locale/ru-RU/_Respiral/skill.ftl](https://github.com/respiral-tree/ss14-respiral/blob/master/Resources/Locale/ru-RU/_Respiral/skill.ftl)
+- Тексты навыков: [Resources/Locale/ru-RU/_respiral/skill.ftl](https://github.com/respiral-tree/ss14-respiral/blob/master/Resources/Locale/ru-RU/_respiral/skill.ftl)
 - Оружие: [Resources/Prototypes/_Respiral/Entities/Items/Weapon/spear.yml](https://github.com/respiral-tree/ss14-respiral/blob/master/Resources/Prototypes/_Respiral/Entities/Items/Weapon/spear.yml)
 - Оружие: [Resources/Prototypes/_Respiral/Entities/Items/Weapon/polearm.yml](https://github.com/respiral-tree/ss14-respiral/blob/master/Resources/Prototypes/_Respiral/Entities/Items/Weapon/polearm.yml)
 - Оружие: [Resources/Prototypes/_Respiral/Entities/Items/Weapon/halberd.yml](https://github.com/respiral-tree/ss14-respiral/blob/master/Resources/Prototypes/_Respiral/Entities/Items/Weapon/halberd.yml)

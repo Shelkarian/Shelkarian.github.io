@@ -20,5 +20,5 @@
 - Трекеры игрового времени: [Resources/Prototypes/_Respiral/Roles/play_time_trackers.yml](https://github.com/respiral-tree/ss14-respiral/blob/master/Resources/Prototypes/_Respiral/Roles/play_time_trackers.yml)
 - Иконки ролей: [Resources/Prototypes/_Respiral/StatusIcon/job.yml](https://github.com/respiral-tree/ss14-respiral/blob/master/Resources/Prototypes/_Respiral/StatusIcon/job.yml)
 - Спавнеры профессий: [Resources/Prototypes/_Respiral/Entities/Markers/Spawners/jobs.yml](https://github.com/respiral-tree/ss14-respiral/blob/master/Resources/Prototypes/_Respiral/Entities/Markers/Spawners/jobs.yml)
-- Названия и описания профессий: [Resources/Locale/ru-RU/_Respiral/job/job.ftl](https://github.com/respiral-tree/ss14-respiral/blob/master/Resources/Locale/ru-RU/_Respiral/job/job.ftl)
-- Названия департаментов: [Resources/Locale/ru-RU/_Respiral/job/department.ftl](https://github.com/respiral-tree/ss14-respiral/blob/master/Resources/Locale/ru-RU/_Respiral/job/department.ftl)
+- Названия и описания профессий: [Resources/Locale/ru-RU/_respiral/job/job.ftl](https://github.com/respiral-tree/ss14-respiral/blob/master/Resources/Locale/ru-RU/_respiral/job/job.ftl)
+- Названия департаментов: [Resources/Locale/ru-RU/_respiral/job/department.ftl](https://github.com/respiral-tree/ss14-respiral/blob/master/Resources/Locale/ru-RU/_respiral/job/department.ftl)
