@@ -40,11 +40,11 @@
 
 ## Реализация
 
-- [Content.Server/_Respiral/Wear/WearSystem.cs](https://github.com/respiral-tree/ss14-respiral/blob/master/Content.Server/_Respiral/Wear/WearSystem.cs)
-- [Content.Server/_Respiral/Wear/WearSystem.Broken.cs](https://github.com/respiral-tree/ss14-respiral/blob/master/Content.Server/_Respiral/Wear/WearSystem.Broken.cs)
-- [Content.Server/_Respiral/Wear/AddWearAfterUseSystem.cs](https://github.com/respiral-tree/ss14-respiral/blob/master/Content.Server/_Respiral/Wear/AddWearAfterUseSystem.cs)
-- [Content.Server/_Respiral/Wear/LatheWearSystem.cs](https://github.com/respiral-tree/ss14-respiral/blob/master/Content.Server/_Respiral/Wear/LatheWearSystem.cs)
-- [Content.Server/_Respiral/Wear/ClothingDamageDistributionSystem.cs](https://github.com/respiral-tree/ss14-respiral/blob/master/Content.Server/_Respiral/Wear/ClothingDamageDistributionSystem.cs)
-- [Content.Server/_Respiral/Wear/ContainerDamageDistributionSystem.cs](https://github.com/respiral-tree/ss14-respiral/blob/master/Content.Server/_Respiral/Wear/ContainerDamageDistributionSystem.cs)
-- [Content.Server/_Respiral/Wear/Components/WearComponent.cs](https://github.com/respiral-tree/ss14-respiral/blob/master/Content.Server/_Respiral/Wear/Components/WearComponent.cs)
-- [Resources/Locale/ru-RU/_Respiral/wear.ftl](https://github.com/respiral-tree/ss14-respiral/blob/master/Resources/Locale/ru-RU/_Respiral/wear.ftl)
+- Система износа: [Content.Server/_Respiral/Wear/WearSystem.cs](https://github.com/respiral-tree/ss14-respiral/blob/master/Content.Server/_Respiral/Wear/WearSystem.cs)
+- Поломка предметов: [Content.Server/_Respiral/Wear/WearSystem.Broken.cs](https://github.com/respiral-tree/ss14-respiral/blob/master/Content.Server/_Respiral/Wear/WearSystem.Broken.cs)
+- Износ после использования: [Content.Server/_Respiral/Wear/AddWearAfterUseSystem.cs](https://github.com/respiral-tree/ss14-respiral/blob/master/Content.Server/_Respiral/Wear/AddWearAfterUseSystem.cs)
+- Износ станков: [Content.Server/_Respiral/Wear/LatheWearSystem.cs](https://github.com/respiral-tree/ss14-respiral/blob/master/Content.Server/_Respiral/Wear/LatheWearSystem.cs)
+- Серверная логика: [Content.Server/_Respiral/Wear/ClothingDamageDistributionSystem.cs](https://github.com/respiral-tree/ss14-respiral/blob/master/Content.Server/_Respiral/Wear/ClothingDamageDistributionSystem.cs)
+- Серверная логика: [Content.Server/_Respiral/Wear/ContainerDamageDistributionSystem.cs](https://github.com/respiral-tree/ss14-respiral/blob/master/Content.Server/_Respiral/Wear/ContainerDamageDistributionSystem.cs)
+- Компонент износа: [Content.Server/_Respiral/Wear/Components/WearComponent.cs](https://github.com/respiral-tree/ss14-respiral/blob/master/Content.Server/_Respiral/Wear/Components/WearComponent.cs)
+- Тексты износа: [Resources/Locale/ru-RU/_Respiral/wear.ftl](https://github.com/respiral-tree/ss14-respiral/blob/master/Resources/Locale/ru-RU/_Respiral/wear.ftl)

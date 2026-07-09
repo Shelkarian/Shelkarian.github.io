@@ -19,5 +19,5 @@
 
 ## Реализация
 
-- [Resources/Prototypes/_Respiral/Maps/verdant_vale.yml](https://github.com/respiral-tree/ss14-respiral/blob/master/Resources/Prototypes/_Respiral/Maps/verdant_vale.yml)
-- [Resources/Prototypes/_Respiral/Stations/base.yml](https://github.com/respiral-tree/ss14-respiral/blob/master/Resources/Prototypes/_Respiral/Stations/base.yml)
+- Карта Verdant Vale: [Resources/Prototypes/_Respiral/Maps/verdant_vale.yml](https://github.com/respiral-tree/ss14-respiral/blob/master/Resources/Prototypes/_Respiral/Maps/verdant_vale.yml)
+- База станции/карты: [Resources/Prototypes/_Respiral/Stations/base.yml](https://github.com/respiral-tree/ss14-respiral/blob/master/Resources/Prototypes/_Respiral/Stations/base.yml)

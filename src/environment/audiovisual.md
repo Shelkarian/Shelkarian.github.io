@@ -21,7 +21,7 @@
 
 ## Реализация
 
-- [Resources/Prototypes/_Respiral/SoundCollections/blacksmithing.yml](https://github.com/respiral-tree/ss14-respiral/blob/master/Resources/Prototypes/_Respiral/SoundCollections/blacksmithing.yml)
-- [Resources/Prototypes/_Respiral/SoundCollections/footsteps.yml](https://github.com/respiral-tree/ss14-respiral/blob/master/Resources/Prototypes/_Respiral/SoundCollections/footsteps.yml)
-- [Resources/Prototypes/_Respiral/SoundCollections/slap.yml](https://github.com/respiral-tree/ss14-respiral/blob/master/Resources/Prototypes/_Respiral/SoundCollections/slap.yml)
-- [Resources/Prototypes/_Respiral/Shaders/shaders.yml](https://github.com/respiral-tree/ss14-respiral/blob/master/Resources/Prototypes/_Respiral/Shaders/shaders.yml)
+- Звуки ковки: [Resources/Prototypes/_Respiral/SoundCollections/blacksmithing.yml](https://github.com/respiral-tree/ss14-respiral/blob/master/Resources/Prototypes/_Respiral/SoundCollections/blacksmithing.yml)
+- Звуки шагов: [Resources/Prototypes/_Respiral/SoundCollections/footsteps.yml](https://github.com/respiral-tree/ss14-respiral/blob/master/Resources/Prototypes/_Respiral/SoundCollections/footsteps.yml)
+- Звуки ударов ладонью: [Resources/Prototypes/_Respiral/SoundCollections/slap.yml](https://github.com/respiral-tree/ss14-respiral/blob/master/Resources/Prototypes/_Respiral/SoundCollections/slap.yml)
+- Шейдеры: [Resources/Prototypes/_Respiral/Shaders/shaders.yml](https://github.com/respiral-tree/ss14-respiral/blob/master/Resources/Prototypes/_Respiral/Shaders/shaders.yml)

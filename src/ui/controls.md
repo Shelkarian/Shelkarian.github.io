@@ -9,6 +9,6 @@
 
 ## Реализация
 
-- [Content.Client/_Respiral/Controllers/MedievalConstructionMenuPresenter.cs](https://github.com/respiral-tree/ss14-respiral/blob/master/Content.Client/_Respiral/Controllers/MedievalConstructionMenuPresenter.cs)
-- [Content.Client/_Respiral/Controllers/MedievalEntitySpawningUIController.cs](https://github.com/respiral-tree/ss14-respiral/blob/master/Content.Client/_Respiral/Controllers/MedievalEntitySpawningUIController.cs)
-- [Content.Client/_Respiral/Controllers/MedievalTileSpawningUIController.cs](https://github.com/respiral-tree/ss14-respiral/blob/master/Content.Client/_Respiral/Controllers/MedievalTileSpawningUIController.cs)
+- Меню строительства: [Content.Client/_Respiral/Controllers/MedievalConstructionMenuPresenter.cs](https://github.com/respiral-tree/ss14-respiral/blob/master/Content.Client/_Respiral/Controllers/MedievalConstructionMenuPresenter.cs)
+- UI спавна сущностей: [Content.Client/_Respiral/Controllers/MedievalEntitySpawningUIController.cs](https://github.com/respiral-tree/ss14-respiral/blob/master/Content.Client/_Respiral/Controllers/MedievalEntitySpawningUIController.cs)
+- UI спавна тайлов: [Content.Client/_Respiral/Controllers/MedievalTileSpawningUIController.cs](https://github.com/respiral-tree/ss14-respiral/blob/master/Content.Client/_Respiral/Controllers/MedievalTileSpawningUIController.cs)

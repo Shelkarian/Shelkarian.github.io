@@ -63,12 +63,12 @@
 
 ## Реализация
 
-- [Resources/Prototypes/_Respiral/Species/human.yml](https://github.com/respiral-tree/ss14-respiral/blob/master/Resources/Prototypes/_Respiral/Species/human.yml)
-- [Resources/Prototypes/_Respiral/Species/goblin.yml](https://github.com/respiral-tree/ss14-respiral/blob/master/Resources/Prototypes/_Respiral/Species/goblin.yml)
-- [Resources/Prototypes/_Respiral/Species/elf.yml](https://github.com/respiral-tree/ss14-respiral/blob/master/Resources/Prototypes/_Respiral/Species/elf.yml)
-- [Resources/Prototypes/_Respiral/Species/dwarf.yml](https://github.com/respiral-tree/ss14-respiral/blob/master/Resources/Prototypes/_Respiral/Species/dwarf.yml)
-- [Resources/Prototypes/_Respiral/Body/Species/human.yml](https://github.com/respiral-tree/ss14-respiral/blob/master/Resources/Prototypes/_Respiral/Body/Species/human.yml)
-- [Resources/Prototypes/_Respiral/Body/Species/goblin.yml](https://github.com/respiral-tree/ss14-respiral/blob/master/Resources/Prototypes/_Respiral/Body/Species/goblin.yml)
-- [Resources/Prototypes/_Respiral/Body/Species/elf.yml](https://github.com/respiral-tree/ss14-respiral/blob/master/Resources/Prototypes/_Respiral/Body/Species/elf.yml)
-- [Resources/Prototypes/_Respiral/Body/Species/dwarf.yml](https://github.com/respiral-tree/ss14-respiral/blob/master/Resources/Prototypes/_Respiral/Body/Species/dwarf.yml)
-- [Resources/Locale/ru-RU/_Respiral/species/species.ftl](https://github.com/respiral-tree/ss14-respiral/blob/master/Resources/Locale/ru-RU/_Respiral/species/species.ftl)
+- Прототип расы: [Resources/Prototypes/_Respiral/Species/human.yml](https://github.com/respiral-tree/ss14-respiral/blob/master/Resources/Prototypes/_Respiral/Species/human.yml)
+- Прототип расы: [Resources/Prototypes/_Respiral/Species/goblin.yml](https://github.com/respiral-tree/ss14-respiral/blob/master/Resources/Prototypes/_Respiral/Species/goblin.yml)
+- Прототип расы: [Resources/Prototypes/_Respiral/Species/elf.yml](https://github.com/respiral-tree/ss14-respiral/blob/master/Resources/Prototypes/_Respiral/Species/elf.yml)
+- Прототип расы: [Resources/Prototypes/_Respiral/Species/dwarf.yml](https://github.com/respiral-tree/ss14-respiral/blob/master/Resources/Prototypes/_Respiral/Species/dwarf.yml)
+- Прототип расы: [Resources/Prototypes/_Respiral/Body/Species/human.yml](https://github.com/respiral-tree/ss14-respiral/blob/master/Resources/Prototypes/_Respiral/Body/Species/human.yml)
+- Прототип расы: [Resources/Prototypes/_Respiral/Body/Species/goblin.yml](https://github.com/respiral-tree/ss14-respiral/blob/master/Resources/Prototypes/_Respiral/Body/Species/goblin.yml)
+- Прототип расы: [Resources/Prototypes/_Respiral/Body/Species/elf.yml](https://github.com/respiral-tree/ss14-respiral/blob/master/Resources/Prototypes/_Respiral/Body/Species/elf.yml)
+- Прототип расы: [Resources/Prototypes/_Respiral/Body/Species/dwarf.yml](https://github.com/respiral-tree/ss14-respiral/blob/master/Resources/Prototypes/_Respiral/Body/Species/dwarf.yml)
+- Названия рас: [Resources/Locale/ru-RU/_Respiral/species/species.ftl](https://github.com/respiral-tree/ss14-respiral/blob/master/Resources/Locale/ru-RU/_Respiral/species/species.ftl)

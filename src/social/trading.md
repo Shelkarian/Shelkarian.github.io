@@ -18,8 +18,8 @@
 
 ## Реализация
 
-- [Content.Server/_Respiral/Trade/MedievalTradeStationSystem.cs](https://github.com/respiral-tree/ss14-respiral/blob/master/Content.Server/_Respiral/Trade/MedievalTradeStationSystem.cs)
-- [Content.Server/_Respiral/Trade/Components/MedievalTradeStationComponent.cs](https://github.com/respiral-tree/ss14-respiral/blob/master/Content.Server/_Respiral/Trade/Components/MedievalTradeStationComponent.cs)
-- [Resources/Prototypes/_Respiral/Catalog/medieval_trade.yml](https://github.com/respiral-tree/ss14-respiral/blob/master/Resources/Prototypes/_Respiral/Catalog/medieval_trade.yml)
-- [Resources/Prototypes/_Respiral/Entities/Structures/trade_console.yml](https://github.com/respiral-tree/ss14-respiral/blob/master/Resources/Prototypes/_Respiral/Entities/Structures/trade_console.yml)
-- [Resources/Locale/ru-RU/_Respiral/cargo/medieval-trade.ftl](https://github.com/respiral-tree/ss14-respiral/blob/master/Resources/Locale/ru-RU/_Respiral/cargo/medieval-trade.ftl)
+- Система торговли: [Content.Server/_Respiral/Trade/MedievalTradeStationSystem.cs](https://github.com/respiral-tree/ss14-respiral/blob/master/Content.Server/_Respiral/Trade/MedievalTradeStationSystem.cs)
+- Компонент торговой станции: [Content.Server/_Respiral/Trade/Components/MedievalTradeStationComponent.cs](https://github.com/respiral-tree/ss14-respiral/blob/master/Content.Server/_Respiral/Trade/Components/MedievalTradeStationComponent.cs)
+- Каталог торговли: [Resources/Prototypes/_Respiral/Catalog/medieval_trade.yml](https://github.com/respiral-tree/ss14-respiral/blob/master/Resources/Prototypes/_Respiral/Catalog/medieval_trade.yml)
+- Торговая консоль: [Resources/Prototypes/_Respiral/Entities/Structures/trade_console.yml](https://github.com/respiral-tree/ss14-respiral/blob/master/Resources/Prototypes/_Respiral/Entities/Structures/trade_console.yml)
+- Тексты торговли: [Resources/Locale/ru-RU/_Respiral/cargo/medieval-trade.ftl](https://github.com/respiral-tree/ss14-respiral/blob/master/Resources/Locale/ru-RU/_Respiral/cargo/medieval-trade.ftl)

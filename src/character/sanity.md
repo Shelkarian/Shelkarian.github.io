@@ -29,6 +29,6 @@
 
 ## Реализация
 
-- [Resources/Prototypes/_Respiral/Interactions/baseinteractions.yml](https://github.com/respiral-tree/ss14-respiral/blob/master/Resources/Prototypes/_Respiral/Interactions/baseinteractions.yml)
-- [Resources/Prototypes/_Respiral/Interactions/harmlessinteractions.yml](https://github.com/respiral-tree/ss14-respiral/blob/master/Resources/Prototypes/_Respiral/Interactions/harmlessinteractions.yml)
-- [Content.Shared/_Respiral/Interaction/InteractionActionSystem.cs](https://github.com/respiral-tree/ss14-respiral/blob/master/Content.Shared/_Respiral/Interaction/InteractionActionSystem.cs)
+- Прототипы: [Resources/Prototypes/_Respiral/Interactions/baseinteractions.yml](https://github.com/respiral-tree/ss14-respiral/blob/master/Resources/Prototypes/_Respiral/Interactions/baseinteractions.yml)
+- Прототипы: [Resources/Prototypes/_Respiral/Interactions/harmlessinteractions.yml](https://github.com/respiral-tree/ss14-respiral/blob/master/Resources/Prototypes/_Respiral/Interactions/harmlessinteractions.yml)
+- Общая логика: [Content.Shared/_Respiral/Interaction/InteractionActionSystem.cs](https://github.com/respiral-tree/ss14-respiral/blob/master/Content.Shared/_Respiral/Interaction/InteractionActionSystem.cs)

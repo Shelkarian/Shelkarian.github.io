@@ -30,7 +30,7 @@
 
 ## Реализация
 
-- [Resources/Prototypes/_Respiral/Damage/modifier_sets.yml](https://github.com/respiral-tree/ss14-respiral/blob/master/Resources/Prototypes/_Respiral/Damage/modifier_sets.yml)
-- [Resources/Prototypes/_Respiral/Damage/Modif/material.yml](https://github.com/respiral-tree/ss14-respiral/blob/master/Resources/Prototypes/_Respiral/Damage/Modif/material.yml)
-- [Resources/Prototypes/_Respiral/Damage/Modif/clothing.yml](https://github.com/respiral-tree/ss14-respiral/blob/master/Resources/Prototypes/_Respiral/Damage/Modif/clothing.yml)
-- [Content.Shared/_Respiral/ZLevels/Damage/CEZLevelDamageSystem.cs](https://github.com/respiral-tree/ss14-respiral/blob/master/Content.Shared/_Respiral/ZLevels/Damage/CEZLevelDamageSystem.cs)
+- Наборы модификаторов урона: [Resources/Prototypes/_Respiral/Damage/modifier_sets.yml](https://github.com/respiral-tree/ss14-respiral/blob/master/Resources/Prototypes/_Respiral/Damage/modifier_sets.yml)
+- Модификаторы материалов: [Resources/Prototypes/_Respiral/Damage/Modif/material.yml](https://github.com/respiral-tree/ss14-respiral/blob/master/Resources/Prototypes/_Respiral/Damage/Modif/material.yml)
+- Модификаторы одежды: [Resources/Prototypes/_Respiral/Damage/Modif/clothing.yml](https://github.com/respiral-tree/ss14-respiral/blob/master/Resources/Prototypes/_Respiral/Damage/Modif/clothing.yml)
+- Урон Z-уровней: [Content.Shared/_Respiral/ZLevels/Damage/CEZLevelDamageSystem.cs](https://github.com/respiral-tree/ss14-respiral/blob/master/Content.Shared/_Respiral/ZLevels/Damage/CEZLevelDamageSystem.cs)

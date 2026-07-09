@@ -19,7 +19,7 @@
 
 ## Реализация
 
-- [Resources/Prototypes/_Respiral/Entities/Items/Tools/tool.yml](https://github.com/respiral-tree/ss14-respiral/blob/master/Resources/Prototypes/_Respiral/Entities/Items/Tools/tool.yml)
-- [Resources/Prototypes/_Respiral/Entities/Items/Weapon/base.yml](https://github.com/respiral-tree/ss14-respiral/blob/master/Resources/Prototypes/_Respiral/Entities/Items/Weapon/base.yml)
-- [Resources/Prototypes/_Respiral/Entities/Objects/RawMaterials/materials.yml](https://github.com/respiral-tree/ss14-respiral/blob/master/Resources/Prototypes/_Respiral/Entities/Objects/RawMaterials/materials.yml)
-- [Resources/Prototypes/_Respiral/Entities/Objects/ProcessedMaterials/materials.yml](https://github.com/respiral-tree/ss14-respiral/blob/master/Resources/Prototypes/_Respiral/Entities/Objects/ProcessedMaterials/materials.yml)
+- Инструменты: [Resources/Prototypes/_Respiral/Entities/Items/Tools/tool.yml](https://github.com/respiral-tree/ss14-respiral/blob/master/Resources/Prototypes/_Respiral/Entities/Items/Tools/tool.yml)
+- База оружия: [Resources/Prototypes/_Respiral/Entities/Items/Weapon/base.yml](https://github.com/respiral-tree/ss14-respiral/blob/master/Resources/Prototypes/_Respiral/Entities/Items/Weapon/base.yml)
+- Сырые материалы: [Resources/Prototypes/_Respiral/Entities/Objects/RawMaterials/materials.yml](https://github.com/respiral-tree/ss14-respiral/blob/master/Resources/Prototypes/_Respiral/Entities/Objects/RawMaterials/materials.yml)
+- Обработанные материалы: [Resources/Prototypes/_Respiral/Entities/Objects/ProcessedMaterials/materials.yml](https://github.com/respiral-tree/ss14-respiral/blob/master/Resources/Prototypes/_Respiral/Entities/Objects/ProcessedMaterials/materials.yml)

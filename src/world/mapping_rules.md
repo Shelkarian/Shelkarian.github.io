@@ -18,11 +18,11 @@
 
 ## Реализация
 
-- [Content.Shared/_Respiral/ZLevels/Core/EntitySystems/CESharedZLevelsSystem.cs](https://github.com/respiral-tree/ss14-respiral/blob/master/Content.Shared/_Respiral/ZLevels/Core/EntitySystems/CESharedZLevelsSystem.cs)
-- [Content.Server/_Respiral/ZLevels/Core/CEZLevelsSystem.cs](https://github.com/respiral-tree/ss14-respiral/blob/master/Content.Server/_Respiral/ZLevels/Core/CEZLevelsSystem.cs)
-- [Content.Client/_Respiral/ZLevels/Core/CEClientZLevelsSystem.cs](https://github.com/respiral-tree/ss14-respiral/blob/master/Content.Client/_Respiral/ZLevels/Core/CEClientZLevelsSystem.cs)
-- [Resources/Prototypes/_Respiral/ZLevels/stairs.yml](https://github.com/respiral-tree/ss14-respiral/blob/master/Resources/Prototypes/_Respiral/ZLevels/stairs.yml)
-- [Resources/Prototypes/_Respiral/ZLevels/misc.yml](https://github.com/respiral-tree/ss14-respiral/blob/master/Resources/Prototypes/_Respiral/ZLevels/misc.yml)
-- [Resources/Prototypes/_Respiral/Entities/Actions/zLevels.yml](https://github.com/respiral-tree/ss14-respiral/blob/master/Resources/Prototypes/_Respiral/Entities/Actions/zLevels.yml)
-- [Resources/Prototypes/_Respiral/Maps/verdant_vale.yml](https://github.com/respiral-tree/ss14-respiral/blob/master/Resources/Prototypes/_Respiral/Maps/verdant_vale.yml)
-- [Content.Server/_Respiral/ZLevels/Mapping/CEZLevelMappingSystem.cs](https://github.com/respiral-tree/ss14-respiral/blob/master/Content.Server/_Respiral/ZLevels/Mapping/CEZLevelMappingSystem.cs)
+- Общая система Z-уровней: [Content.Shared/_Respiral/ZLevels/Core/EntitySystems/CESharedZLevelsSystem.cs](https://github.com/respiral-tree/ss14-respiral/blob/master/Content.Shared/_Respiral/ZLevels/Core/EntitySystems/CESharedZLevelsSystem.cs)
+- Сервер Z-уровней: [Content.Server/_Respiral/ZLevels/Core/CEZLevelsSystem.cs](https://github.com/respiral-tree/ss14-respiral/blob/master/Content.Server/_Respiral/ZLevels/Core/CEZLevelsSystem.cs)
+- Клиент Z-уровней: [Content.Client/_Respiral/ZLevels/Core/CEClientZLevelsSystem.cs](https://github.com/respiral-tree/ss14-respiral/blob/master/Content.Client/_Respiral/ZLevels/Core/CEClientZLevelsSystem.cs)
+- Лестницы Z-уровней: [Resources/Prototypes/_Respiral/ZLevels/stairs.yml](https://github.com/respiral-tree/ss14-respiral/blob/master/Resources/Prototypes/_Respiral/ZLevels/stairs.yml)
+- Служебные прототипы Z-уровней: [Resources/Prototypes/_Respiral/ZLevels/misc.yml](https://github.com/respiral-tree/ss14-respiral/blob/master/Resources/Prototypes/_Respiral/ZLevels/misc.yml)
+- Действия Z-уровней: [Resources/Prototypes/_Respiral/Entities/Actions/zLevels.yml](https://github.com/respiral-tree/ss14-respiral/blob/master/Resources/Prototypes/_Respiral/Entities/Actions/zLevels.yml)
+- Карта Verdant Vale: [Resources/Prototypes/_Respiral/Maps/verdant_vale.yml](https://github.com/respiral-tree/ss14-respiral/blob/master/Resources/Prototypes/_Respiral/Maps/verdant_vale.yml)
+- Маппинг Z-уровней: [Content.Server/_Respiral/ZLevels/Mapping/CEZLevelMappingSystem.cs](https://github.com/respiral-tree/ss14-respiral/blob/master/Content.Server/_Respiral/ZLevels/Mapping/CEZLevelMappingSystem.cs)

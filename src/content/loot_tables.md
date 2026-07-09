@@ -17,5 +17,5 @@
 
 ## Реализация
 
-- [Resources/Prototypes/_Respiral/Procedural/salvage_mods.yml](https://github.com/respiral-tree/ss14-respiral/blob/master/Resources/Prototypes/_Respiral/Procedural/salvage_mods.yml)
-- [Resources/Prototypes/_Respiral/Entities/Mobs/Monster/monsters.yml](https://github.com/respiral-tree/ss14-respiral/blob/master/Resources/Prototypes/_Respiral/Entities/Mobs/Monster/monsters.yml)
+- Процедурная добыча: [Resources/Prototypes/_Respiral/Procedural/salvage_mods.yml](https://github.com/respiral-tree/ss14-respiral/blob/master/Resources/Prototypes/_Respiral/Procedural/salvage_mods.yml)
+- Прототипы: [Resources/Prototypes/_Respiral/Entities/Mobs/Monster/monsters.yml](https://github.com/respiral-tree/ss14-respiral/blob/master/Resources/Prototypes/_Respiral/Entities/Mobs/Monster/monsters.yml)

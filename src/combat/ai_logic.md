@@ -31,8 +31,8 @@
 
 ## Реализация
 
-- [Content.Server/_Respiral/NPC/MedievalNPC.cs](https://github.com/respiral-tree/ss14-respiral/blob/master/Content.Server/_Respiral/NPC/MedievalNPC.cs)
-- [Content.Server/_Respiral/NPC/Systems/NPCAggressionSystem.cs](https://github.com/respiral-tree/ss14-respiral/blob/master/Content.Server/_Respiral/NPC/Systems/NPCAggressionSystem.cs)
-- [Content.Server/_Respiral/NPC/Systems/NPCUseActionsOnTargetSystem.cs](https://github.com/respiral-tree/ss14-respiral/blob/master/Content.Server/_Respiral/NPC/Systems/NPCUseActionsOnTargetSystem.cs)
-- [Resources/Prototypes/_Respiral/NPC/flora.yml](https://github.com/respiral-tree/ss14-respiral/blob/master/Resources/Prototypes/_Respiral/NPC/flora.yml)
-- [Resources/Prototypes/_Respiral/NPC/factions.yml](https://github.com/respiral-tree/ss14-respiral/blob/master/Resources/Prototypes/_Respiral/NPC/factions.yml)
+- База средневековых NPC: [Content.Server/_Respiral/NPC/MedievalNPC.cs](https://github.com/respiral-tree/ss14-respiral/blob/master/Content.Server/_Respiral/NPC/MedievalNPC.cs)
+- Агрессия NPC: [Content.Server/_Respiral/NPC/Systems/NPCAggressionSystem.cs](https://github.com/respiral-tree/ss14-respiral/blob/master/Content.Server/_Respiral/NPC/Systems/NPCAggressionSystem.cs)
+- Действия NPC по цели: [Content.Server/_Respiral/NPC/Systems/NPCUseActionsOnTargetSystem.cs](https://github.com/respiral-tree/ss14-respiral/blob/master/Content.Server/_Respiral/NPC/Systems/NPCUseActionsOnTargetSystem.cs)
+- NPC флоры и животных: [Resources/Prototypes/_Respiral/NPC/flora.yml](https://github.com/respiral-tree/ss14-respiral/blob/master/Resources/Prototypes/_Respiral/NPC/flora.yml)
+- Фракции NPC: [Resources/Prototypes/_Respiral/NPC/factions.yml](https://github.com/respiral-tree/ss14-respiral/blob/master/Resources/Prototypes/_Respiral/NPC/factions.yml)

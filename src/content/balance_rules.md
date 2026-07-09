@@ -20,6 +20,6 @@
 
 ## Реализация
 
-- [Resources/Prototypes/_Respiral/Damage/modifier_sets.yml](https://github.com/respiral-tree/ss14-respiral/blob/master/Resources/Prototypes/_Respiral/Damage/modifier_sets.yml)
-- [Resources/Prototypes/_Respiral/tool_qualities.yml](https://github.com/respiral-tree/ss14-respiral/blob/master/Resources/Prototypes/_Respiral/tool_qualities.yml)
-- [Resources/Prototypes/_Respiral/Catalog/medieval_trade.yml](https://github.com/respiral-tree/ss14-respiral/blob/master/Resources/Prototypes/_Respiral/Catalog/medieval_trade.yml)
+- Наборы модификаторов урона: [Resources/Prototypes/_Respiral/Damage/modifier_sets.yml](https://github.com/respiral-tree/ss14-respiral/blob/master/Resources/Prototypes/_Respiral/Damage/modifier_sets.yml)
+- Прототипы: [Resources/Prototypes/_Respiral/tool_qualities.yml](https://github.com/respiral-tree/ss14-respiral/blob/master/Resources/Prototypes/_Respiral/tool_qualities.yml)
+- Каталог торговли: [Resources/Prototypes/_Respiral/Catalog/medieval_trade.yml](https://github.com/respiral-tree/ss14-respiral/blob/master/Resources/Prototypes/_Respiral/Catalog/medieval_trade.yml)

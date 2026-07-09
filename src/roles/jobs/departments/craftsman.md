@@ -43,5 +43,5 @@
 
 ## Реализация
 
-- [Resources/Prototypes/_Respiral/Roles/Jobs/Craftsman/city.yml](https://github.com/respiral-tree/ss14-respiral/blob/master/Resources/Prototypes/_Respiral/Roles/Jobs/Craftsman/city.yml)
-- [Resources/Locale/ru-RU/_Respiral/job/job.ftl](https://github.com/respiral-tree/ss14-respiral/blob/master/Resources/Locale/ru-RU/_Respiral/job/job.ftl)
+- Городские профессии: [Resources/Prototypes/_Respiral/Roles/Jobs/Craftsman/city.yml](https://github.com/respiral-tree/ss14-respiral/blob/master/Resources/Prototypes/_Respiral/Roles/Jobs/Craftsman/city.yml)
+- Названия и описания профессий: [Resources/Locale/ru-RU/_Respiral/job/job.ftl](https://github.com/respiral-tree/ss14-respiral/blob/master/Resources/Locale/ru-RU/_Respiral/job/job.ftl)

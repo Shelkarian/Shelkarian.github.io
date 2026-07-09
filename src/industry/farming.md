@@ -189,10 +189,10 @@ graph TD
 
 ## Реализация
 
-- [Content.Server/_Respiral/Flora/FloraSystem.cs](https://github.com/respiral-tree/ss14-respiral/blob/master/Content.Server/_Respiral/Flora/FloraSystem.cs)
-- [Content.Shared/_Respiral/Flora/FloraComponent.cs](https://github.com/respiral-tree/ss14-respiral/blob/master/Content.Shared/_Respiral/Flora/FloraComponent.cs)
-- [Content.Shared/_Respiral/Flora/FloraHarvestDoAfterEvent.cs](https://github.com/respiral-tree/ss14-respiral/blob/master/Content.Shared/_Respiral/Flora/FloraHarvestDoAfterEvent.cs)
-- [Resources/Prototypes/_Respiral/Entities/Objects/RawMaterials/Flora/tree.yml](https://github.com/respiral-tree/ss14-respiral/blob/master/Resources/Prototypes/_Respiral/Entities/Objects/RawMaterials/Flora/tree.yml)
-- [Resources/Prototypes/_Respiral/Entities/Objects/RawMaterials/Flora/herb.yml](https://github.com/respiral-tree/ss14-respiral/blob/master/Resources/Prototypes/_Respiral/Entities/Objects/RawMaterials/Flora/herb.yml)
-- [Resources/Prototypes/_Respiral/Entities/Objects/RawMaterials/Seeds/seeds.yml](https://github.com/respiral-tree/ss14-respiral/blob/master/Resources/Prototypes/_Respiral/Entities/Objects/RawMaterials/Seeds/seeds.yml)
-- [Resources/Prototypes/_Respiral/Entities/Objects/RawMaterials/Seeds/produce.yml](https://github.com/respiral-tree/ss14-respiral/blob/master/Resources/Prototypes/_Respiral/Entities/Objects/RawMaterials/Seeds/produce.yml)
+- Система флоры: [Content.Server/_Respiral/Flora/FloraSystem.cs](https://github.com/respiral-tree/ss14-respiral/blob/master/Content.Server/_Respiral/Flora/FloraSystem.cs)
+- Компонент флоры: [Content.Shared/_Respiral/Flora/FloraComponent.cs](https://github.com/respiral-tree/ss14-respiral/blob/master/Content.Shared/_Respiral/Flora/FloraComponent.cs)
+- Событие сбора флоры: [Content.Shared/_Respiral/Flora/FloraHarvestDoAfterEvent.cs](https://github.com/respiral-tree/ss14-respiral/blob/master/Content.Shared/_Respiral/Flora/FloraHarvestDoAfterEvent.cs)
+- Деревья: [Resources/Prototypes/_Respiral/Entities/Objects/RawMaterials/Flora/tree.yml](https://github.com/respiral-tree/ss14-respiral/blob/master/Resources/Prototypes/_Respiral/Entities/Objects/RawMaterials/Flora/tree.yml)
+- Травы: [Resources/Prototypes/_Respiral/Entities/Objects/RawMaterials/Flora/herb.yml](https://github.com/respiral-tree/ss14-respiral/blob/master/Resources/Prototypes/_Respiral/Entities/Objects/RawMaterials/Flora/herb.yml)
+- Семена и урожай: [Resources/Prototypes/_Respiral/Entities/Objects/RawMaterials/Seeds/seeds.yml](https://github.com/respiral-tree/ss14-respiral/blob/master/Resources/Prototypes/_Respiral/Entities/Objects/RawMaterials/Seeds/seeds.yml)
+- Семена и урожай: [Resources/Prototypes/_Respiral/Entities/Objects/RawMaterials/Seeds/produce.yml](https://github.com/respiral-tree/ss14-respiral/blob/master/Resources/Prototypes/_Respiral/Entities/Objects/RawMaterials/Seeds/produce.yml)

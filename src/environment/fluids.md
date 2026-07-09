@@ -18,7 +18,7 @@
 
 ## Реализация
 
-- [Content.Shared/_Respiral/Dirt/PuddleContactSystem.cs](https://github.com/respiral-tree/ss14-respiral/blob/master/Content.Shared/_Respiral/Dirt/PuddleContactSystem.cs)
-- [Content.Shared/_Respiral/Dirt/SharedDirtSystem.cs](https://github.com/respiral-tree/ss14-respiral/blob/master/Content.Shared/_Respiral/Dirt/SharedDirtSystem.cs)
-- [Content.Shared/_Respiral/Dirt/Components/DirtableComponent.cs](https://github.com/respiral-tree/ss14-respiral/blob/master/Content.Shared/_Respiral/Dirt/Components/DirtableComponent.cs)
-- [Resources/Locale/ru-RU/_Respiral/dirt/dirt.ftl](https://github.com/respiral-tree/ss14-respiral/blob/master/Resources/Locale/ru-RU/_Respiral/dirt/dirt.ftl)
+- Грязь и жидкости: [Content.Shared/_Respiral/Dirt/PuddleContactSystem.cs](https://github.com/respiral-tree/ss14-respiral/blob/master/Content.Shared/_Respiral/Dirt/PuddleContactSystem.cs)
+- Грязь и жидкости: [Content.Shared/_Respiral/Dirt/SharedDirtSystem.cs](https://github.com/respiral-tree/ss14-respiral/blob/master/Content.Shared/_Respiral/Dirt/SharedDirtSystem.cs)
+- Грязь и жидкости: [Content.Shared/_Respiral/Dirt/Components/DirtableComponent.cs](https://github.com/respiral-tree/ss14-respiral/blob/master/Content.Shared/_Respiral/Dirt/Components/DirtableComponent.cs)
+- Грязь и жидкости: [Resources/Locale/ru-RU/_Respiral/dirt/dirt.ftl](https://github.com/respiral-tree/ss14-respiral/blob/master/Resources/Locale/ru-RU/_Respiral/dirt/dirt.ftl)

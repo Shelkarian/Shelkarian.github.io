@@ -737,6 +737,6 @@ graph LR
 
 ## Реализация
 
-- [Resources/Prototypes/_Respiral/Entities/Objects/RawMaterials/materials.yml](https://github.com/respiral-tree/ss14-respiral/blob/master/Resources/Prototypes/_Respiral/Entities/Objects/RawMaterials/materials.yml)
-- [Resources/Prototypes/_Respiral/Entities/Objects/RawMaterials/production.yml](https://github.com/respiral-tree/ss14-respiral/blob/master/Resources/Prototypes/_Respiral/Entities/Objects/RawMaterials/production.yml)
-- [Resources/Prototypes/_Respiral/Procedural/salvage_mods.yml](https://github.com/respiral-tree/ss14-respiral/blob/master/Resources/Prototypes/_Respiral/Procedural/salvage_mods.yml)
+- Сырые материалы: [Resources/Prototypes/_Respiral/Entities/Objects/RawMaterials/materials.yml](https://github.com/respiral-tree/ss14-respiral/blob/master/Resources/Prototypes/_Respiral/Entities/Objects/RawMaterials/materials.yml)
+- Добываемое сырьё: [Resources/Prototypes/_Respiral/Entities/Objects/RawMaterials/production.yml](https://github.com/respiral-tree/ss14-respiral/blob/master/Resources/Prototypes/_Respiral/Entities/Objects/RawMaterials/production.yml)
+- Процедурная добыча: [Resources/Prototypes/_Respiral/Procedural/salvage_mods.yml](https://github.com/respiral-tree/ss14-respiral/blob/master/Resources/Prototypes/_Respiral/Procedural/salvage_mods.yml)

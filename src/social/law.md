@@ -18,8 +18,8 @@
 
 ## Реализация
 
-- [Content.Shared/_Respiral/Lock/SharedMedievalLockSystem.cs](https://github.com/respiral-tree/ss14-respiral/blob/master/Content.Shared/_Respiral/Lock/SharedMedievalLockSystem.cs)
-- [Content.Server/_Respiral/Lock/MedievalLockSystem.cs](https://github.com/respiral-tree/ss14-respiral/blob/master/Content.Server/_Respiral/Lock/MedievalLockSystem.cs)
-- [Resources/Prototypes/_Respiral/Entities/Items/Misk/key.yml](https://github.com/respiral-tree/ss14-respiral/blob/master/Resources/Prototypes/_Respiral/Entities/Items/Misk/key.yml)
-- [Resources/Prototypes/_Respiral/Entities/Items/Misk/lock.yml](https://github.com/respiral-tree/ss14-respiral/blob/master/Resources/Prototypes/_Respiral/Entities/Items/Misk/lock.yml)
-- [Resources/Prototypes/_Respiral/Entities/Structures/Doors/locked_door.yml](https://github.com/respiral-tree/ss14-respiral/blob/master/Resources/Prototypes/_Respiral/Entities/Structures/Doors/locked_door.yml)
+- Общая система замков: [Content.Shared/_Respiral/Lock/SharedMedievalLockSystem.cs](https://github.com/respiral-tree/ss14-respiral/blob/master/Content.Shared/_Respiral/Lock/SharedMedievalLockSystem.cs)
+- Серверная система замков: [Content.Server/_Respiral/Lock/MedievalLockSystem.cs](https://github.com/respiral-tree/ss14-respiral/blob/master/Content.Server/_Respiral/Lock/MedievalLockSystem.cs)
+- Ключи: [Resources/Prototypes/_Respiral/Entities/Items/Misk/key.yml](https://github.com/respiral-tree/ss14-respiral/blob/master/Resources/Prototypes/_Respiral/Entities/Items/Misk/key.yml)
+- Замки: [Resources/Prototypes/_Respiral/Entities/Items/Misk/lock.yml](https://github.com/respiral-tree/ss14-respiral/blob/master/Resources/Prototypes/_Respiral/Entities/Items/Misk/lock.yml)
+- Замки и ключи: [Resources/Prototypes/_Respiral/Entities/Structures/Doors/locked_door.yml](https://github.com/respiral-tree/ss14-respiral/blob/master/Resources/Prototypes/_Respiral/Entities/Structures/Doors/locked_door.yml)

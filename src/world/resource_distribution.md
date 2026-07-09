@@ -19,6 +19,6 @@
 
 ## Реализация
 
-- [Resources/Prototypes/_Respiral/Procedural/biome_templates.yml](https://github.com/respiral-tree/ss14-respiral/blob/master/Resources/Prototypes/_Respiral/Procedural/biome_templates.yml)
-- [Resources/Prototypes/_Respiral/Procedural/salvage_mods.yml](https://github.com/respiral-tree/ss14-respiral/blob/master/Resources/Prototypes/_Respiral/Procedural/salvage_mods.yml)
-- [Resources/Prototypes/_Respiral/Maps/verdant_vale.yml](https://github.com/respiral-tree/ss14-respiral/blob/master/Resources/Prototypes/_Respiral/Maps/verdant_vale.yml)
+- Шаблоны биомов: [Resources/Prototypes/_Respiral/Procedural/biome_templates.yml](https://github.com/respiral-tree/ss14-respiral/blob/master/Resources/Prototypes/_Respiral/Procedural/biome_templates.yml)
+- Процедурная добыча: [Resources/Prototypes/_Respiral/Procedural/salvage_mods.yml](https://github.com/respiral-tree/ss14-respiral/blob/master/Resources/Prototypes/_Respiral/Procedural/salvage_mods.yml)
+- Карта Verdant Vale: [Resources/Prototypes/_Respiral/Maps/verdant_vale.yml](https://github.com/respiral-tree/ss14-respiral/blob/master/Resources/Prototypes/_Respiral/Maps/verdant_vale.yml)

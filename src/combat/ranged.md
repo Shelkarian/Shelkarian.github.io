@@ -27,4 +27,4 @@
 
 ## Реализация
 
-- [Content.Shared/_Respiral/ZLevels/Throwing/CEZLevelThrowingSystem.cs](https://github.com/respiral-tree/ss14-respiral/blob/master/Content.Shared/_Respiral/ZLevels/Throwing/CEZLevelThrowingSystem.cs)
+- Броски между Z-уровнями: [Content.Shared/_Respiral/ZLevels/Throwing/CEZLevelThrowingSystem.cs](https://github.com/respiral-tree/ss14-respiral/blob/master/Content.Shared/_Respiral/ZLevels/Throwing/CEZLevelThrowingSystem.cs)

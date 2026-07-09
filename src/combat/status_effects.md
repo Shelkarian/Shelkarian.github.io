@@ -27,6 +27,6 @@
 
 ## Реализация
 
-- [Resources/Prototypes/_Respiral/Alerts/alerts.yml](https://github.com/respiral-tree/ss14-respiral/blob/master/Resources/Prototypes/_Respiral/Alerts/alerts.yml)
-- [Content.Shared/_Respiral/ZLevels/Damage/FallingDamage/CEFallingDamageSystem.cs](https://github.com/respiral-tree/ss14-respiral/blob/master/Content.Shared/_Respiral/ZLevels/Damage/FallingDamage/CEFallingDamageSystem.cs)
-- [Content.Shared/_Respiral/ZLevels/Damage/SafeFalling/CESafeFallingSystem.cs](https://github.com/respiral-tree/ss14-respiral/blob/master/Content.Shared/_Respiral/ZLevels/Damage/SafeFalling/CESafeFallingSystem.cs)
+- Алерты: [Resources/Prototypes/_Respiral/Alerts/alerts.yml](https://github.com/respiral-tree/ss14-respiral/blob/master/Resources/Prototypes/_Respiral/Alerts/alerts.yml)
+- Урон от падения: [Content.Shared/_Respiral/ZLevels/Damage/FallingDamage/CEFallingDamageSystem.cs](https://github.com/respiral-tree/ss14-respiral/blob/master/Content.Shared/_Respiral/ZLevels/Damage/FallingDamage/CEFallingDamageSystem.cs)
+- Безопасное падение: [Content.Shared/_Respiral/ZLevels/Damage/SafeFalling/CESafeFallingSystem.cs](https://github.com/respiral-tree/ss14-respiral/blob/master/Content.Shared/_Respiral/ZLevels/Damage/SafeFalling/CESafeFallingSystem.cs)

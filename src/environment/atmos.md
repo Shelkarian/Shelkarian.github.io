@@ -18,5 +18,5 @@
 
 ## Реализация
 
-- [Content.Server/_Respiral/ZLevels/Weather/CEWeatherCommand.cs](https://github.com/respiral-tree/ss14-respiral/blob/master/Content.Server/_Respiral/ZLevels/Weather/CEWeatherCommand.cs)
-- [Content.Shared/_Respiral/ZLevels/Weather/CEWeatherSystem.cs](https://github.com/respiral-tree/ss14-respiral/blob/master/Content.Shared/_Respiral/ZLevels/Weather/CEWeatherSystem.cs)
+- Погода: [Content.Server/_Respiral/ZLevels/Weather/CEWeatherCommand.cs](https://github.com/respiral-tree/ss14-respiral/blob/master/Content.Server/_Respiral/ZLevels/Weather/CEWeatherCommand.cs)
+- Погода: [Content.Shared/_Respiral/ZLevels/Weather/CEWeatherSystem.cs](https://github.com/respiral-tree/ss14-respiral/blob/master/Content.Shared/_Respiral/ZLevels/Weather/CEWeatherSystem.cs)

@@ -30,8 +30,8 @@
 
 ## Реализация
 
-- [Content.Server/_Respiral/Skill/MeleeSkillSystem.cs](https://github.com/respiral-tree/ss14-respiral/blob/master/Content.Server/_Respiral/Skill/MeleeSkillSystem.cs)
-- [Resources/Prototypes/_Respiral/Entities/Items/Weapon/base.yml](https://github.com/respiral-tree/ss14-respiral/blob/master/Resources/Prototypes/_Respiral/Entities/Items/Weapon/base.yml)
-- [Resources/Prototypes/_Respiral/Entities/Items/Weapon/sword.yml](https://github.com/respiral-tree/ss14-respiral/blob/master/Resources/Prototypes/_Respiral/Entities/Items/Weapon/sword.yml)
-- [Resources/Prototypes/_Respiral/Entities/Items/Weapon/mace.yml](https://github.com/respiral-tree/ss14-respiral/blob/master/Resources/Prototypes/_Respiral/Entities/Items/Weapon/mace.yml)
-- [Resources/Prototypes/_Respiral/Damage/Modif/mobs.yml](https://github.com/respiral-tree/ss14-respiral/blob/master/Resources/Prototypes/_Respiral/Damage/Modif/mobs.yml)
+- Навыки ближнего боя: [Content.Server/_Respiral/Skill/MeleeSkillSystem.cs](https://github.com/respiral-tree/ss14-respiral/blob/master/Content.Server/_Respiral/Skill/MeleeSkillSystem.cs)
+- База оружия: [Resources/Prototypes/_Respiral/Entities/Items/Weapon/base.yml](https://github.com/respiral-tree/ss14-respiral/blob/master/Resources/Prototypes/_Respiral/Entities/Items/Weapon/base.yml)
+- Оружие: [Resources/Prototypes/_Respiral/Entities/Items/Weapon/sword.yml](https://github.com/respiral-tree/ss14-respiral/blob/master/Resources/Prototypes/_Respiral/Entities/Items/Weapon/sword.yml)
+- Оружие: [Resources/Prototypes/_Respiral/Entities/Items/Weapon/mace.yml](https://github.com/respiral-tree/ss14-respiral/blob/master/Resources/Prototypes/_Respiral/Entities/Items/Weapon/mace.yml)
+- Модификаторы существ: [Resources/Prototypes/_Respiral/Damage/Modif/mobs.yml](https://github.com/respiral-tree/ss14-respiral/blob/master/Resources/Prototypes/_Respiral/Damage/Modif/mobs.yml)
