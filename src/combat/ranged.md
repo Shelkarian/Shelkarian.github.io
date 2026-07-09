@@ -24,3 +24,7 @@
 1. Нужна ли отдельная механика прицеливания?
 2. Как сильно движение снижает точность?
 3. Можно ли подбирать стрелы после боя?
+
+## Реализация
+
+- [Content.Shared/_Respiral/ZLevels/Throwing/CEZLevelThrowingSystem.cs](https://github.com/respiral-tree/ss14-respiral/blob/master/Content.Shared/_Respiral/ZLevels/Throwing/CEZLevelThrowingSystem.cs)

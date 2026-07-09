@@ -22,5 +22,5 @@
 
 ## Реализация
 
-- Прототип: `Roles/Jobs/Nobles/nobles.yml` (`MedievalLord`).
-- **Дыра:** нет выделенной механики власти.
+- [Resources/Prototypes/_Respiral/Roles/Jobs/Nobles/nobles.yml](https://github.com/respiral-tree/ss14-respiral/blob/master/Resources/Prototypes/_Respiral/Roles/Jobs/Nobles/nobles.yml)
+- [Resources/Locale/ru-RU/_Respiral/job/job.ftl](https://github.com/respiral-tree/ss14-respiral/blob/master/Resources/Locale/ru-RU/_Respiral/job/job.ftl)

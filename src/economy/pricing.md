@@ -56,13 +56,11 @@
 
 ## Реализация
 
-- Компонент: `Content.Server/_Respiral/Pricing/Components/MedievalPhysicalPricedComponent.cs`
-  (`Markup`, `BasePrice`, `AddedValue`).
-- Система: `Content.Server/_Respiral/Pricing/MedievalPhysicalPricedSystem.cs` — считает `BasePrice`
-  на `MapInit`, обновляет `AddedValue` при уроне (`DamageDealtEvent`), добавляет к цене на
-  `PriceCalculationEvent`.
-- Базовый расчёт: `Content.Server/Cargo/Systems/PricingSystem.cs` → `GetMaterialPrice` суммирует
-  `MaterialPrototype.Price × quantity` из `PhysicalComposition` (интеграция помечена `_Respiral`).
-- Состав: `PhysicalComposition` (`Content.Shared/Materials/PhysicalCompositionComponent.cs`).
-- Цены сырья: `Entities/Objects/{RawMaterials,ProcessedMaterials}/materials.yml`.
-- `MedievalPhysicalPriced` наследуется базовыми прототипами (`base_machine.yml`, мебель, ковры и т.д.).
+- [Content.Server/_Respiral/Pricing/MedievalPhysicalPricedSystem.cs](https://github.com/respiral-tree/ss14-respiral/blob/master/Content.Server/_Respiral/Pricing/MedievalPhysicalPricedSystem.cs)
+- [Content.Server/_Respiral/Pricing/Components/MedievalPhysicalPricedComponent.cs](https://github.com/respiral-tree/ss14-respiral/blob/master/Content.Server/_Respiral/Pricing/Components/MedievalPhysicalPricedComponent.cs)
+- [Resources/Prototypes/_Respiral/Entities/Items/Misk/economy.yml](https://github.com/respiral-tree/ss14-respiral/blob/master/Resources/Prototypes/_Respiral/Entities/Items/Misk/economy.yml)
+- [Content.Server/_Respiral/Trade/MedievalTradeStationSystem.cs](https://github.com/respiral-tree/ss14-respiral/blob/master/Content.Server/_Respiral/Trade/MedievalTradeStationSystem.cs)
+- [Content.Server/_Respiral/Trade/Components/MedievalTradeStationComponent.cs](https://github.com/respiral-tree/ss14-respiral/blob/master/Content.Server/_Respiral/Trade/Components/MedievalTradeStationComponent.cs)
+- [Resources/Prototypes/_Respiral/Catalog/medieval_trade.yml](https://github.com/respiral-tree/ss14-respiral/blob/master/Resources/Prototypes/_Respiral/Catalog/medieval_trade.yml)
+- [Resources/Prototypes/_Respiral/Entities/Structures/trade_console.yml](https://github.com/respiral-tree/ss14-respiral/blob/master/Resources/Prototypes/_Respiral/Entities/Structures/trade_console.yml)
+- [Resources/Locale/ru-RU/_Respiral/cargo/medieval-trade.ftl](https://github.com/respiral-tree/ss14-respiral/blob/master/Resources/Locale/ru-RU/_Respiral/cargo/medieval-trade.ftl)

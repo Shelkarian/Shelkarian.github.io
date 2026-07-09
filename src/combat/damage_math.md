@@ -27,3 +27,10 @@
 1. Нужны ли критические попадания?
 2. Должна ли броня ломаться от поглощенного урона?
 3. Как показывать игроку причину низкого урона?
+
+## Реализация
+
+- [Resources/Prototypes/_Respiral/Damage/modifier_sets.yml](https://github.com/respiral-tree/ss14-respiral/blob/master/Resources/Prototypes/_Respiral/Damage/modifier_sets.yml)
+- [Resources/Prototypes/_Respiral/Damage/Modif/material.yml](https://github.com/respiral-tree/ss14-respiral/blob/master/Resources/Prototypes/_Respiral/Damage/Modif/material.yml)
+- [Resources/Prototypes/_Respiral/Damage/Modif/clothing.yml](https://github.com/respiral-tree/ss14-respiral/blob/master/Resources/Prototypes/_Respiral/Damage/Modif/clothing.yml)
+- [Content.Shared/_Respiral/ZLevels/Damage/CEZLevelDamageSystem.cs](https://github.com/respiral-tree/ss14-respiral/blob/master/Content.Shared/_Respiral/ZLevels/Damage/CEZLevelDamageSystem.cs)

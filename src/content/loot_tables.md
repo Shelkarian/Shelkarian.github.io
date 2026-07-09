@@ -14,3 +14,8 @@
 | Тушка зверя | Мясо | Часто | 1-3 | Требует разделки. |
 | Старый сундук | Монеты | Часто | 5-20 | Нет. |
 | Старый сундук | Реликвия | Редко | 1 | Только в руинах. |
+
+## Реализация
+
+- [Resources/Prototypes/_Respiral/Procedural/salvage_mods.yml](https://github.com/respiral-tree/ss14-respiral/blob/master/Resources/Prototypes/_Respiral/Procedural/salvage_mods.yml)
+- [Resources/Prototypes/_Respiral/Entities/Mobs/Monster/monsters.yml](https://github.com/respiral-tree/ss14-respiral/blob/master/Resources/Prototypes/_Respiral/Entities/Mobs/Monster/monsters.yml)

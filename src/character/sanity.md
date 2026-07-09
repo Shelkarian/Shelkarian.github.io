@@ -26,3 +26,9 @@
 3. **Молитва:** Использование религиозных практик.
 4. **Сон:** Сон в кровати. До 75%
 5. **Зелья:** Специальные зелья.
+
+## Реализация
+
+- [Resources/Prototypes/_Respiral/Interactions/baseinteractions.yml](https://github.com/respiral-tree/ss14-respiral/blob/master/Resources/Prototypes/_Respiral/Interactions/baseinteractions.yml)
+- [Resources/Prototypes/_Respiral/Interactions/harmlessinteractions.yml](https://github.com/respiral-tree/ss14-respiral/blob/master/Resources/Prototypes/_Respiral/Interactions/harmlessinteractions.yml)
+- [Content.Shared/_Respiral/Interaction/InteractionActionSystem.cs](https://github.com/respiral-tree/ss14-respiral/blob/master/Content.Shared/_Respiral/Interaction/InteractionActionSystem.cs)

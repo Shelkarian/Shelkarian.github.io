@@ -30,5 +30,5 @@
 > профессиях, не здесь.
 
 ## Реализация
-> Ссылки на прототипы: Roles/Jobs/*, Skill/*, Structures/Machine/*. Известные дыры/TODO.
+> Ссылки на прототипы: Roles/Jobs/*, Skill/*, Structures/Machine/*. Открытые вопросы/TODO.
 ```

@@ -18,5 +18,5 @@
 
 ## Реализация
 > Прототип: `Structures/Machine/lathe.yml` (parent `MedievalBaseLathe`). Плата: `Machine.board`.
-> Пак рецептов: `Recipe/packs.yml`. Постройка: граф `MedievalMachine`. Известные дыры/TODO.
+> Пак рецептов: `Recipe/packs.yml`. Постройка: граф `MedievalMachine`. Открытые вопросы/TODO.
 ```

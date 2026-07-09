@@ -28,3 +28,11 @@
 1. Нужна ли память о последнем месте цели?
 2. Должны ли монстры реагировать на свет и огонь?
 3. Нужны ли разные профили ИИ для зверей, нежити и разумных NPC?
+
+## Реализация
+
+- [Content.Server/_Respiral/NPC/MedievalNPC.cs](https://github.com/respiral-tree/ss14-respiral/blob/master/Content.Server/_Respiral/NPC/MedievalNPC.cs)
+- [Content.Server/_Respiral/NPC/Systems/NPCAggressionSystem.cs](https://github.com/respiral-tree/ss14-respiral/blob/master/Content.Server/_Respiral/NPC/Systems/NPCAggressionSystem.cs)
+- [Content.Server/_Respiral/NPC/Systems/NPCUseActionsOnTargetSystem.cs](https://github.com/respiral-tree/ss14-respiral/blob/master/Content.Server/_Respiral/NPC/Systems/NPCUseActionsOnTargetSystem.cs)
+- [Resources/Prototypes/_Respiral/NPC/flora.yml](https://github.com/respiral-tree/ss14-respiral/blob/master/Resources/Prototypes/_Respiral/NPC/flora.yml)
+- [Resources/Prototypes/_Respiral/NPC/factions.yml](https://github.com/respiral-tree/ss14-respiral/blob/master/Resources/Prototypes/_Respiral/NPC/factions.yml)

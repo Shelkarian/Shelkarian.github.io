@@ -15,3 +15,8 @@
 1. Нужна ли полноценная симуляция газов или упрощенные зоны?
 2. Как игрок видит опасный воздух?
 3. Какие предметы защищают дыхание?
+
+## Реализация
+
+- [Content.Server/_Respiral/ZLevels/Weather/CEWeatherCommand.cs](https://github.com/respiral-tree/ss14-respiral/blob/master/Content.Server/_Respiral/ZLevels/Weather/CEWeatherCommand.cs)
+- [Content.Shared/_Respiral/ZLevels/Weather/CEWeatherSystem.cs](https://github.com/respiral-tree/ss14-respiral/blob/master/Content.Shared/_Respiral/ZLevels/Weather/CEWeatherSystem.cs)

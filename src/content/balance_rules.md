@@ -17,3 +17,9 @@
 3. Кто страдает от этой механики?
 4. Есть ли контр-действие?
 5. Можно ли это абузить массово?
+
+## Реализация
+
+- [Resources/Prototypes/_Respiral/Damage/modifier_sets.yml](https://github.com/respiral-tree/ss14-respiral/blob/master/Resources/Prototypes/_Respiral/Damage/modifier_sets.yml)
+- [Resources/Prototypes/_Respiral/tool_qualities.yml](https://github.com/respiral-tree/ss14-respiral/blob/master/Resources/Prototypes/_Respiral/tool_qualities.yml)
+- [Resources/Prototypes/_Respiral/Catalog/medieval_trade.yml](https://github.com/respiral-tree/ss14-respiral/blob/master/Resources/Prototypes/_Respiral/Catalog/medieval_trade.yml)

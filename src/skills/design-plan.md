@@ -15,5 +15,5 @@
 
 ## Реализация
 > Прототип: Skill/skill.yml (+ Skill/book.yml). Компоненты-гейты: NeededSkillForInteract /
-> NeededSkillForInteractUsing / NeededSkillForMelee. Известные дыры/TODO.
+> NeededSkillForInteractUsing / NeededSkillForMelee. Открытые вопросы/TODO.
 ```

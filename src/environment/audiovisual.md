@@ -18,3 +18,10 @@
 | Работа станции | Показывает процесс без открытия UI. |
 | Удар | Подсказывает тип столкновения. |
 | Опасность | Дает сигнал игроку до прямого урона. |
+
+## Реализация
+
+- [Resources/Prototypes/_Respiral/SoundCollections/blacksmithing.yml](https://github.com/respiral-tree/ss14-respiral/blob/master/Resources/Prototypes/_Respiral/SoundCollections/blacksmithing.yml)
+- [Resources/Prototypes/_Respiral/SoundCollections/footsteps.yml](https://github.com/respiral-tree/ss14-respiral/blob/master/Resources/Prototypes/_Respiral/SoundCollections/footsteps.yml)
+- [Resources/Prototypes/_Respiral/SoundCollections/slap.yml](https://github.com/respiral-tree/ss14-respiral/blob/master/Resources/Prototypes/_Respiral/SoundCollections/slap.yml)
+- [Resources/Prototypes/_Respiral/Shaders/shaders.yml](https://github.com/respiral-tree/ss14-respiral/blob/master/Resources/Prototypes/_Respiral/Shaders/shaders.yml)

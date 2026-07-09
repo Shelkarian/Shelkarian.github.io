@@ -18,5 +18,5 @@
 
 ## Реализация
 > Прототип: `Entities/Objects/{RawMaterials,ProcessedMaterials}/materials.yml` (`type: material`).
-> Тег склада станка: `Medieval<Станок>MaterialStorage`. Износ изделий — `Wear`. Известные дыры/TODO.
+> Тег склада станка: `Medieval<Станок>MaterialStorage`. Износ изделий — `Wear`. Открытые вопросы/TODO.
 ```

@@ -43,7 +43,5 @@
 
 ## Реализация
 
-- Прототипы ролей: `Roles/Jobs/Craftsman/city.yml`; навыки и книги: `Skill/skill.yml`, `Skill/book.yml`.
-- **Дыры:** профессия не выдаёт навык — роли пока косметические (любой с книгой = любой ремесленник);
-  профессии в разработке, ждут спрайты одежды. Ювелир — нет роли; Инженер/Корчмарь/Горожанин без
-  механики.
+- [Resources/Prototypes/_Respiral/Roles/Jobs/Craftsman/city.yml](https://github.com/respiral-tree/ss14-respiral/blob/master/Resources/Prototypes/_Respiral/Roles/Jobs/Craftsman/city.yml)
+- [Resources/Locale/ru-RU/_Respiral/job/job.ftl](https://github.com/respiral-tree/ss14-respiral/blob/master/Resources/Locale/ru-RU/_Respiral/job/job.ftl)

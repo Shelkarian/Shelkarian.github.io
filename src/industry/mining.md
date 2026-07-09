@@ -734,3 +734,9 @@ graph LR
     G --> N[Плавка]
     N --> O[Кузнечное дело]
 ```
+
+## Реализация
+
+- [Resources/Prototypes/_Respiral/Entities/Objects/RawMaterials/materials.yml](https://github.com/respiral-tree/ss14-respiral/blob/master/Resources/Prototypes/_Respiral/Entities/Objects/RawMaterials/materials.yml)
+- [Resources/Prototypes/_Respiral/Entities/Objects/RawMaterials/production.yml](https://github.com/respiral-tree/ss14-respiral/blob/master/Resources/Prototypes/_Respiral/Entities/Objects/RawMaterials/production.yml)
+- [Resources/Prototypes/_Respiral/Procedural/salvage_mods.yml](https://github.com/respiral-tree/ss14-respiral/blob/master/Resources/Prototypes/_Respiral/Procedural/salvage_mods.yml)

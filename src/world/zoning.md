@@ -16,3 +16,8 @@
 1. Как игрок узнает статус зоны?
 2. Кто выдает доступ?
 3. Что считается нарушением границы?
+
+## Реализация
+
+- [Resources/Prototypes/_Respiral/Maps/verdant_vale.yml](https://github.com/respiral-tree/ss14-respiral/blob/master/Resources/Prototypes/_Respiral/Maps/verdant_vale.yml)
+- [Resources/Prototypes/_Respiral/Stations/base.yml](https://github.com/respiral-tree/ss14-respiral/blob/master/Resources/Prototypes/_Respiral/Stations/base.yml)

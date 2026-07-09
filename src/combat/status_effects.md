@@ -24,3 +24,9 @@
 1. Складываются ли одинаковые состояния?
 2. Есть ли иммунитет после окончания эффекта?
 3. Какие состояния видны другим игрокам?
+
+## Реализация
+
+- [Resources/Prototypes/_Respiral/Alerts/alerts.yml](https://github.com/respiral-tree/ss14-respiral/blob/master/Resources/Prototypes/_Respiral/Alerts/alerts.yml)
+- [Content.Shared/_Respiral/ZLevels/Damage/FallingDamage/CEFallingDamageSystem.cs](https://github.com/respiral-tree/ss14-respiral/blob/master/Content.Shared/_Respiral/ZLevels/Damage/FallingDamage/CEFallingDamageSystem.cs)
+- [Content.Shared/_Respiral/ZLevels/Damage/SafeFalling/CESafeFallingSystem.cs](https://github.com/respiral-tree/ss14-respiral/blob/master/Content.Shared/_Respiral/ZLevels/Damage/SafeFalling/CESafeFallingSystem.cs)

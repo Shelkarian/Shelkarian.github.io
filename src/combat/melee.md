@@ -27,3 +27,11 @@
 1. Нужны ли направления ударов?
 2. Как работает парирование?
 3. Насколько сильно усталость режет эффективность?
+
+## Реализация
+
+- [Content.Server/_Respiral/Skill/MeleeSkillSystem.cs](https://github.com/respiral-tree/ss14-respiral/blob/master/Content.Server/_Respiral/Skill/MeleeSkillSystem.cs)
+- [Resources/Prototypes/_Respiral/Entities/Items/Weapon/base.yml](https://github.com/respiral-tree/ss14-respiral/blob/master/Resources/Prototypes/_Respiral/Entities/Items/Weapon/base.yml)
+- [Resources/Prototypes/_Respiral/Entities/Items/Weapon/sword.yml](https://github.com/respiral-tree/ss14-respiral/blob/master/Resources/Prototypes/_Respiral/Entities/Items/Weapon/sword.yml)
+- [Resources/Prototypes/_Respiral/Entities/Items/Weapon/mace.yml](https://github.com/respiral-tree/ss14-respiral/blob/master/Resources/Prototypes/_Respiral/Entities/Items/Weapon/mace.yml)
+- [Resources/Prototypes/_Respiral/Damage/Modif/mobs.yml](https://github.com/respiral-tree/ss14-respiral/blob/master/Resources/Prototypes/_Respiral/Damage/Modif/mobs.yml)
