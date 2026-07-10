@@ -195,7 +195,7 @@ graph TD
 - Прототипы станков: [Resources/Prototypes/_Respiral/Entities/Structures/Machine/lathe.yml](https://github.com/respiral-tree/ss14-respiral/blob/master/Resources/Prototypes/_Respiral/Entities/Structures/Machine/lathe.yml)
 - Рецепты производства: [Resources/Prototypes/_Respiral/Recipe/recipe.yml](https://github.com/respiral-tree/ss14-respiral/blob/master/Resources/Prototypes/_Respiral/Recipe/recipe.yml)
 
-## 9. Критерии приемки
+## 9. Ожидаемое поведение
 
 - Mermaid-диаграмма рендерится без неизвестных классов и показывает последовательность от загрузки до результата.
 - Ветвь штрафа доступна только для 3-го и последующих подогревов; 1-й и 2-й подогревы возвращают заготовку к нагреву без штрафа.

@@ -101,7 +101,7 @@
 - Звуки ковки: [Resources/Prototypes/_Respiral/SoundCollections/blacksmithing.yml](https://github.com/respiral-tree/ss14-respiral/blob/master/Resources/Prototypes/_Respiral/SoundCollections/blacksmithing.yml)
 - Рецепты производства: [Resources/Prototypes/_Respiral/Recipe/recipe.yml](https://github.com/respiral-tree/ss14-respiral/blob/master/Resources/Prototypes/_Respiral/Recipe/recipe.yml)
 
-## Критерии приемки данных
+## Ожидаемое поведение данных
 
 - Все температурные состояния имеют непересекающиеся числовые окна, полностью покрывающие шкалу `0–100`.
 - Окна ритма однозначно определяются через `E_i`, включая граничные значения.
