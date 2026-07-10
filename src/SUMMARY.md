@@ -21,8 +21,6 @@
 
 # IV. Роли и департаменты
 - [Карта ролей](./roles/jobs/overview.md)
-- [Шаблон департамента](./roles/jobs/departments/design-plan.md)
-- [Шаблон профессии](./roles/jobs/professions/design-plan.md)
 - [Городские](./roles/jobs/departments/craftsman.md)
   - [Кузнец](./roles/jobs/professions/blacksmith.md)
   - [Плотник](./roles/jobs/professions/carpenter.md)
@@ -46,7 +44,6 @@
   - [Переселенец](./roles/jobs/professions/pilligrim.md)
 
 # V. Навыки
-- [Шаблон навыка](./skills/design-plan.md)
 - [Грамотность](./skills/literacy.md)
 - [Обработка дерева](./skills/wood-processing.md)
 - [Обработка камня](./skills/stone-processing.md)
@@ -81,7 +78,6 @@
 - [Износ предметов](./wear/overview.md)
 
 # VIII. Материалы
-- [Материалы: шаблон](./material/design-plan.md)
 - [Дерево](./material/wood.md)
 - [Камень](./material/stone.md)
 - [Уголь](./material/coal.md)
@@ -98,7 +94,6 @@
 - [Самоцветы](./material/gems.md)
 
 # IX. Станки
-- [Станки: шаблон](./lathe/design-plan.md)
 - [Пилорама](./lathe/sawmill.md)
 - [Каменоломня](./lathe/quarry.md)
 - [Стол плотника](./lathe/carpenter-table.md)
@@ -126,7 +121,7 @@
 # XII. Магия и вера
 - [Система магии](./magic/magic_system.md)
 - [Школы магии](./magic/schools.md)
-- [Создание заклинаний](./magic/casting.md)
+- [Система маны](./magic/casting.md)
 - [Магия в бою](./magic/magic_fight.md)
 - [Ритуалы](./magic/rituals.md)
 - [Благословения](./magic/faith.md)
@@ -160,6 +155,11 @@
 
 # XVIII. Ведение документа
 - [Правила публикации](./contributing.md)
+- [Шаблон департамента](./roles/jobs/departments/design-plan.md)
+- [Шаблон профессии](./roles/jobs/professions/design-plan.md)
+- [Шаблон навыка](./skills/design-plan.md)
+- [Шаблон материала](./material/design-plan.md)
+- [Шаблон станка](./lathe/design-plan.md)
 
 # Архив
 - [Языки - старый черновик](./archive/languages_legacy.md)
