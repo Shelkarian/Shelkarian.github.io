@@ -5,7 +5,6 @@
 # I. Основы дизайна
 - [Столпы проекта](./thematic/pillars.md)
 - [Сеттинг мира](./thematic/setting.md)
-- [Основной игровой цикл](./thematic/loop.md)
 
 # II. Ход раунда
 - [Структура раунда](./modes/round_structure.md)
