@@ -8,6 +8,7 @@
 
 # II. Ход раунда
 - [Структура раунда](./modes/round_structure.md)
+- [Игровые режимы](./modes/game_modes.md)
 - [Концовки](./modes/endings.md)
 - [Метапрогрессия](./modes/metaprogress.md)
 
