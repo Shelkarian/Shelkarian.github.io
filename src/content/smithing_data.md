@@ -1,108 +1,171 @@
-# Кузнечное дело (Данные)
+# Кузнечное дело: данные
 
-Этот файл является каноническим источником числовых параметров и справочных таблиц кузнечного дела. Описание игрового цикла находится в [документе механики](../industry/smithing.md).
+Этот файл хранит числовые параметры кузнечки из текущей реализации. Игровой контекст и цикл описаны в [основной странице](../industry/smithing.md).
 
-## 1. Температурная шкала слитков
-*Стартовая балансная шкала `T` задается в условных единицах от 0 до 100 включительно.*
+## 1. Текущие станки
 
-| Состояние | Окно `T` | Визуал (цвет) | Статус |
+| ID | Тип | Навык | Пак рецептов |
 | :--- | :--- | :--- | :--- |
-| **Холодный** | `0–39` | Серый | Ковка невозможна; удар не меняет форму. |
-| **Ковкий** | `40–59` | Темно-красный | Допустима ковка вне идеального окна. |
-| **Рабочий** | `60–79` | Оранжевый | Стартовое идеальное окно рецепта. |
-| **Критический** | `80–94` | Светло-желтый | Ковка допустима, но металл близок к перегреву. |
-| **Смерть** | `95–100` | Белый | Заготовка уничтожается. |
+| `MedievalSmelter` | `Lathe` | `MedievalBasicBlacksmithing` | `MedievalSmelter` |
+| `MedievalAnvil` | `Lathe` | `MedievalBasicBlacksmithing` | `MedievalAnvil` |
 
-Конкретный рецепт может сузить идеальное окно внутри диапазона `40–94`, задав `T_min` и `T_max`. Если рецепт не переопределяет значения, используются `T_min = 60` и `T_max = 79`.
+Оба станка используют `NeededSkillForInteract`. Если у персонажа нет освоенного навыка, он не должен нормально работать со станком.
 
-## 2. Окна ритма
+## 2. Рецепты плавильни
 
-Стартовый целевой интервал между ударами `I_target = 1.00 с`. Для каждого интервала `I_i` вычисляется абсолютная ошибка `E_i = |I_i - I_target|`.
-
-| Оценка интервала | Числовое окно | Балл `r_i` |
+| Рецепт | Результат | Материалы |
 | :--- | :--- | :--- |
-| **Идеальный** | `E_i <= 0.10 с` | `1.0` |
-| **Допустимый** | `0.10 с < E_i <= 0.25 с` | `0.5` |
-| **Промах** | `E_i > 0.25 с` | `0.0` |
+| `MedievalIronIngotRecipe` | `MedievalIronIngot1` | `MedievalRawIron: 200`, `MedievalRawCoal: 100` |
+| `MedievalSteelIngotRecipe` | `MedievalSteelIngot1` | `MedievalRawIron: 300`, `MedievalRawCoal: 100` |
+| `MedievalSilverIngotRecipe` | `MedievalSilverIngot1` | `MedievalRawSilver: 500`, `MedievalRawCoal: 100` |
+| `MedievalGoldIngotRecipe` | `MedievalGoldIngot1` | `MedievalRawGold: 500`, `MedievalRawCoal: 100` |
+| `MedievalMithrilIngotRecipe` | `MedievalMithrilIngot1` | `MedievalRawMithril: 300`, `MedievalRawCoal: 100` |
+| `MedievalAdamantineIngotRecipe` | `MedievalAdamantineIngot1` | `MedievalRawAdamantine: 300`, `MedievalRawCoal: 100` |
 
-Серия из трех идеальных интервалов расширяет идеальное окно следующих трех интервалов до `E_i <= 0.15 с`. Эффект не складывается и после третьего интервала возвращается к `0.10 с`.
+Пак `MedievalSmelter` также содержит рецепты стеклянных бутылей.
 
-## 3. Формула качества
+## 3. Пак наковальни
 
-Для рецепта из `m` ударов и фактически выполненных `n` ударов:
+`MedievalAnvil` содержит большой набор lathe-рецептов. Для GDD его удобнее делить не по ID каждого предмета, а по игровым группам:
 
-* `S = positionalMatches / max(n, m)`, где `positionalMatches` — число позиций, на которых режим удара совпал с рецептом; при `n = m = 0` принимается `S = 0`.
-* Для каждого удара `t_i = 1.0`, если `T_min <= T_i <= T_max`; `t_i = 0.5`, если `40 <= T_i <= 94`, но удар вне идеального окна; иначе `t_i = 0.0`. `T_score = sum(t_i) / n`, а при `n = 0` — `0`.
-* `R_score = sum(r_i) / (n - 1)`, а при `n < 2` — `0`.
-* `reheatCount` — число возвратов заготовки в горн после первого нагрева. Первые два подогрева не штрафуются; штраф начинается с третьего.
-
-Итог вычисляется единственным способом:
-
-`Quality = clamp(round(100 * (0.50 * S + 0.25 * T_score + 0.25 * R_score) - 10 * max(0, reheatCount - 2)), 0, 100)`
-
-| Итог `Quality` | Результат |
+| Группа | Что входит |
 | :--- | :--- |
-| `90–100` | Шедевр |
-| `60–89` | Обычный предмет |
-| `1–59` | Низкое качество |
-| `0` | Брак / лом |
+| Оружие | Мечи, кинжалы, ножи, тесаки, копья, алебарды, древковое, булавы, кастеты, плети |
+| Броня | Доспехи, шлемы, цепные перчатки, сапоги, пояса, корона |
+| Инструменты | Строительные инструменты, ножницы, молотковая амуниция |
+| Замки | Отмычки, ключи, замки, дубликатор ключей |
+| Деньги | Золотые и серебряные монеты |
+| Посуда | Кружки и кубки из разных материалов |
+| Освещение | Канделябры и металлический факел в отдельном паке `MedievalAnvilCandel` |
 
-## 4. Режимы ударов молота
-*Режимы инструмента. Влияют на скорость деформации.*
+## 4. Температура интерактивной ковки
 
-| Режим | Расход стамины | Сила деформации |
+Цвет слитка берется из `ForgeSystem`.
+
+| Температура | Цвет | Игровое значение |
 | :--- | :--- | :--- |
-| **Лёгкий** | Низкий | Слабая |
-| **Средний** | Средний | Средняя |
-| **Тяжёлый** | Высокий | Сильная |
+| `< 700` | Прозрачный/без свечения | Удары не проходят |
+| `700-799` | `DarkRed` | Минимальная рабочая температура |
+| `800-899` | `Red` | Рабочее красное свечение |
+| `900-999` | `#c10020` | Яркое красное свечение |
+| `1000-1099` | `OrangeRed` | Горячий металл |
+| `1100-1199` | `LightYellow` | Очень горячий металл |
+| `>= 1200` | `WhiteSmoke` | Белый перегрев по визуалу |
 
-## 5. Инструментарий
-*Инструментарий в кузнице*
+Фактическое уничтожение при перегреве зависит не от таблицы цвета, а от `heated.OverheatThreshold`.
 
-| Инструмент | Функция | Обоснование |
+## 5. Молот
+
+| Тип удара | Расход стамины | Комментарий |
 | :--- | :--- | :--- |
-| **Клещи** | Безопасность | Перенос предметов при `T >= 40`. Без них персонаж получает ожог и роняет предмет. |
-| **Меха** | Температура | Повышают вентиляцию горна. Без них невозможно достичь пиковой температуры топлива. |
-| **Молот** | Формовка | Основной инструмент. Требует наковальню под слитком. |
+| `Light` | `0` | Бесплатный слабый удар |
+| `Medium` | `5` | Средний удар |
+| `Heavy` | `10` | Дорогой сильный удар |
 
-### 5.1. Виды инструментов
-*Типы и виды инструментов в кузнице*
+Максимум ударов в одном процессе: `64`.
 
-## 6. Оборудование
-*Оборудование в кузнице*
-| Оборудование | Функция | Обоснование |
-| :--- | :--- | :--- |
-| **Кузнечный горн** | Плавка | Туда кладут уголь и разжигают огонь, чтобы плавить металл |
-| **Наковальня** | Ковка | Железо на котором придают форму металлу |
-| **Чан для закалки** | Закалка | Тут охлаждаем наш металл и он принимает форму |
+Деформация визуала считается по первым `32` ударам:
 
-### 6.1. Виды оборудования
-*Типы и виды оборудования в кузнице*
+`Y = 1.0 - min(strikeCount, 32) / 32 * 0.4`
 
-### 6.2. Термодинамика среды
-*Коэффициенты остывания слитка в зависимости от локации.*
+То есть при полном визуальном сжатии слиток доходит до `Y = 0.6`.
 
-| Среда | Влияние на t° | Комментарий |
-| :--- | :--- | :--- |
-| **Горн (Активный)** | ++ Нагрев | Пока есть топливо. |
-| **Воздух (В клещах)** | - Остывание (Слабое) | Игрок несет слиток от горна к наковальне. |
-| **Наковальня** | -- Остывание (Сильное) | Холодный металл наковальни быстро забирает тепло. Стимул ковать быстро. |
-| **Чан (Жидкость)** | --- Мгновенное остывание | Финальная стадия (Закалка). |
+## 6. Рецепт интерактивной ковки
+
+Формат `forgingRecipe` поддерживает:
+
+| Поле | Назначение |
+| :--- | :--- |
+| `input` | Какой слиток или заготовка принимается |
+| `output` | Что появляется при успехе |
+| `failedOutput` | Что появляется при провале рецепта |
+| `RequiredSequence` | Последовательность ударов |
+| `MinPerfectStrikes` | Минимум идеальных ударов |
+| `MaxBadStrikes` | Максимум плохих ударов |
+| `multipliers` | Множители качества для `Perfect`, `Good`, `Bad` |
+| `IdealTemperature` | Идеальное температурное окно |
+
+`StrikePattern` может задавать конкретный `type`, ссылаться на `strikeId`, повторяться через `amount`, иметь свое `timeWindow` и `rhythmBonus`.
+
+## 7. Оценка удара
+
+Температура:
+
+| Условие | Оценка |
+| :--- | :--- |
+| Температура внутри `IdealTemperature` | `Perfect` |
+| Температура в пределах `IdealTemperature ± 100` | `Good` |
+| Остальное | `Bad` |
+
+Ритм:
+
+| Условие | Оценка |
+| :--- | :--- |
+| Первый удар | `Good` |
+| Интервал внутри адаптированного окна | `Perfect` |
+| Отклонение от центра не больше ширины окна | `Good` |
+| Остальное | `Bad` |
+
+Пауза больше `10` секунд считается паузой на подогрев. До `60` секунд она может считаться нормальной, дольше становится плохим ритмом.
+
+## 8. Качество результата
+
+Финальный счет:
+
+`score = perfect * perfectMultiplier + good * goodMultiplier + bad * badMultiplier + rhythmBonus + temperatureBonus + rhythmStreakBonus`
+
+Множители по умолчанию:
+
+| Оценка | Множитель |
+| :--- | :--- |
+| `Perfect` | `1.5` |
+| `Good` | `1.0` |
+| `Bad` | `0.3` |
+
+Бонусы:
+
+| Условие | Бонус |
+| :--- | :--- |
+| Все удары в идеальной температуре | `+15` |
+| Хотя бы 70% ударов в идеальной температуре | `+8` |
+| Серия из 5 хороших ритмов подряд | `+10` |
+| Серия из 3 хороших ритмов подряд | `+5` |
+
+Пороги:
+
+| Счет | Качество |
+| :--- | :--- |
+| `< 15` | `Rough` |
+| `15-24` | `Normal` |
+| `25-34` | `Good` |
+| `35-44` | `Master` |
+| `>= 45` | `Masterpiece` |
+
+Условие общего успеха:
+
+`PerfectStrikes + GoodStrikes > BadStrikes * 2`
+
+Плохие удары частично компенсируются идеальной температурой: каждые 3 идеальных по температуре удара убирают 1 эффективный плохой удар для проверки `MaxBadStrikes`.
+
+## 9. Закалка
+
+| Параметр | Значение по умолчанию |
+| :--- | :--- |
+| Раствор | `drink` |
+| Реагент | `Water` |
+| Расход | `5` |
+| Минимальная температура | `700` |
+| Звук | `/Audio/_Respiral/Effects/Blacksmithing/quenching.ogg` |
+
+Если подходящего `forgingRecipe` нет, результатом становится `ShapelessMetal`.
 
 ## Реализация
 
-- Прототип рецепта ковки: [Content.Shared/_Respiral/Blacksmithing/ForgingRecipePrototype.cs](https://github.com/respiral-tree/ss14-respiral/blob/master/Content.Shared/_Respiral/Blacksmithing/ForgingRecipePrototype.cs)
-- Система процесса ковки: [Content.Server/_Respiral/Blacksmithing/ForgingSystem.cs](https://github.com/respiral-tree/ss14-respiral/blob/master/Content.Server/_Respiral/Blacksmithing/ForgingSystem.cs)
-- Система горна: [Content.Server/_Respiral/Blacksmithing/ForgeSystem.cs](https://github.com/respiral-tree/ss14-respiral/blob/master/Content.Server/_Respiral/Blacksmithing/ForgeSystem.cs)
-- Система закалки: [Content.Server/_Respiral/Blacksmithing/QuenchingSystem.cs](https://github.com/respiral-tree/ss14-respiral/blob/master/Content.Server/_Respiral/Blacksmithing/QuenchingSystem.cs)
-- Тексты ковки: [Resources/Locale/ru-RU/_respiral/blacksmithing/blacksmithing.ftl](https://github.com/respiral-tree/ss14-respiral/blob/master/Resources/Locale/ru-RU/_respiral/blacksmithing/blacksmithing.ftl)
-- Звуки ковки: [Resources/Prototypes/_Respiral/SoundCollections/blacksmithing.yml](https://github.com/respiral-tree/ss14-respiral/blob/master/Resources/Prototypes/_Respiral/SoundCollections/blacksmithing.yml)
+- Станки плавильни и наковальни: [Resources/Prototypes/_Respiral/Entities/Structures/Machine/lathe.yml](https://github.com/respiral-tree/ss14-respiral/blob/master/Resources/Prototypes/_Respiral/Entities/Structures/Machine/lathe.yml)
+- Паки рецептов: [Resources/Prototypes/_Respiral/Recipe/packs.yml](https://github.com/respiral-tree/ss14-respiral/blob/master/Resources/Prototypes/_Respiral/Recipe/packs.yml)
 - Рецепты производства: [Resources/Prototypes/_Respiral/Recipe/recipe.yml](https://github.com/respiral-tree/ss14-respiral/blob/master/Resources/Prototypes/_Respiral/Recipe/recipe.yml)
-
-## Ожидаемое поведение данных
-
-- Все температурные состояния имеют непересекающиеся числовые окна, полностью покрывающие шкалу `0–100`.
-- Окна ритма однозначно определяются через `E_i`, включая граничные значения.
-- Для одинакового набора ударов, температур, интервалов и подогревов формула всегда возвращает одно целое значение `Quality` от 0 до 100.
-- Первый штраф за усталость металла равен 10 баллам и применяется при `reheatCount = 3`.
-- Таблицы кузнечных параметров поддерживаются только в этом файле; документ механики содержит ссылки на них.
+- Прототип рецепта интерактивной ковки: [Content.Shared/_Respiral/Blacksmithing/ForgingRecipePrototype.cs](https://github.com/respiral-tree/ss14-respiral/blob/master/Content.Shared/_Respiral/Blacksmithing/ForgingRecipePrototype.cs)
+- Система нагрева: [Content.Server/_Respiral/Blacksmithing/ForgeSystem.cs](https://github.com/respiral-tree/ss14-respiral/blob/master/Content.Server/_Respiral/Blacksmithing/ForgeSystem.cs)
+- Система ударов: [Content.Server/_Respiral/Blacksmithing/ForgingSystem.cs](https://github.com/respiral-tree/ss14-respiral/blob/master/Content.Server/_Respiral/Blacksmithing/ForgingSystem.cs)
+- Система закалки и качества: [Content.Server/_Respiral/Blacksmithing/QuenchingSystem.cs](https://github.com/respiral-tree/ss14-respiral/blob/master/Content.Server/_Respiral/Blacksmithing/QuenchingSystem.cs)
+- Компоненты: [Content.Shared/_Respiral/Blacksmithing/Components](https://github.com/respiral-tree/ss14-respiral/tree/master/Content.Shared/_Respiral/Blacksmithing/Components)
