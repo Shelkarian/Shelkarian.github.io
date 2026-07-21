@@ -34,6 +34,7 @@
 - [Староста](../professions/elder.md)
 - [Фермер](../professions/farmer.md)
 - [Крестьянин](../professions/peasant.md)
+- [Лесничий - НЕ ДОБАВЛЕНО](../professions/forester.md)
 
 ## Реализация
 

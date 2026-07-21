@@ -31,7 +31,6 @@
   - [Горожанин](./roles/jobs/professions/citizen.md)
   - [Торговец](./roles/jobs/professions/merchant.md)
   - [Стражник](./roles/jobs/professions/guard.md)
-  - [Лесничий - НЕ ДОБАВЛЕНО](./roles/jobs/professions/forester.md)
 - [Дворяне](./roles/jobs/departments/nobles.md)
   - [Лорд](./roles/jobs/professions/lord.md)
   - [Рыцарь](./roles/jobs/professions/knight.md)
@@ -41,6 +40,7 @@
   - [Староста](./roles/jobs/professions/elder.md)
   - [Фермер](./roles/jobs/professions/farmer.md)
   - [Крестьянин](./roles/jobs/professions/peasant.md)
+  - [Лесничий - НЕ ДОБАВЛЕНО](./roles/jobs/professions/forester.md)
 - [Прочие жители](./roles/jobs/departments/commoner.md)
   - [Переселенец](./roles/jobs/professions/pilligrim.md)
 

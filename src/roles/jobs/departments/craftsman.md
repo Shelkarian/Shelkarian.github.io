@@ -38,7 +38,6 @@
 - [Горожанин](../professions/citizen.md)
 - [Торговец](../professions/merchant.md)
 - [Стражник](../professions/guard.md)
-- [Лесничий - НЕ ДОБАВЛЕНО](../professions/forester.md)
 
 ## Реализация
 
