@@ -164,4 +164,5 @@
 
 # Архив
 - [Языки - старый черновик](./archive/languages_legacy.md)
+- [Готовка - версия до PR #52](./archive/cooking_before_pr52.md)
 - [Respiral Docs - исходное введение](./archive/respiral_docs_intro.md)
