@@ -36,11 +36,12 @@
   - [Рыцарь](./roles/jobs/professions/knight.md)
   - [Управляющий городом](./roles/jobs/professions/city-steward.md)
   - [Казначей](./roles/jobs/professions/treasurer.md)
+- [Служащие владения](./roles/jobs/departments/estate-servants.md)
+  - [Лесничий - НЕ ДОБАВЛЕНО](./roles/jobs/professions/forester.md)
 - [Деревенские](./roles/jobs/departments/villager.md)
   - [Староста](./roles/jobs/professions/elder.md)
   - [Фермер](./roles/jobs/professions/farmer.md)
   - [Крестьянин](./roles/jobs/professions/peasant.md)
-  - [Лесник - НЕ ДОБАВЛЕНО](./roles/jobs/professions/forester.md)
 - [Прочие жители](./roles/jobs/departments/commoner.md)
   - [Переселенец](./roles/jobs/professions/pilligrim.md)
 
