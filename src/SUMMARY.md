@@ -40,7 +40,7 @@
   - [Староста](./roles/jobs/professions/elder.md)
   - [Фермер](./roles/jobs/professions/farmer.md)
   - [Крестьянин](./roles/jobs/professions/peasant.md)
-  - [Лесничий - НЕ ДОБАВЛЕНО](./roles/jobs/professions/forester.md)
+  - [Лесник - НЕ ДОБАВЛЕНО](./roles/jobs/professions/forester.md)
 - [Прочие жители](./roles/jobs/departments/commoner.md)
   - [Переселенец](./roles/jobs/professions/pilligrim.md)
 
